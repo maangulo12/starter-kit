@@ -1,2 +1,5 @@
+# Vagrant
+.vagrant
+
 # Python
 __pycache__/
