@@ -1,0 +1,10 @@
+{
+  "name": "get-started",
+  "version": "1.0.0",
+  "description": "Getting started tutorial",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1"
+  }
+}
