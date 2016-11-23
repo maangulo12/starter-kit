@@ -3,7 +3,7 @@ var browserSync = require('browser-sync').create();
 var execute     = require('child_process').exec;
 
 gulp.task('runserver', function() {
-    var proc = execute('python3 backend/app.py');
+    var proc = execute('python3 server.py');
 });
 
 gulp.task('default', ['runserver'], function() {
@@ -11,5 +11,5 @@ gulp.task('default', ['runserver'], function() {
     proxy: 'localhost:5000'
   });
 
-  gulp.watch(['backend/templates/*.*'], browserSync.reload);
+  gulp.watch(['frontend/*.*', 'frontend/**/*.*'], browserSync.reload);
 });
