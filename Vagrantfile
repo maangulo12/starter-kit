@@ -55,6 +55,6 @@ apt-get install -y nodejs
 npm install -g npm
 npm install -g gulp browser-sync
 cd /vagrant/
-npm install -g
+npm install
 
 CONTENTS
