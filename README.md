@@ -1,3 +1,3 @@
-# Getting Started: Tutorial
+# Getting Started: Starter Kit
 
-This is a stating point for a Flask + Angular 2 application.
+This is a concise skeleton for getting started with Flask and Angular 2.
