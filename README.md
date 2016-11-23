@@ -1,3 +1,3 @@
 # Getting Started: Tutorial
 
-This is a tutorial for getting started with Flask and Angular 2.
+This is a stating point for a Flask + Angular 2 application.
