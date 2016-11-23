@@ -19,12 +19,19 @@ gulp.task('ts-compile', function() {
     .pipe(gulp.dest('frontend/www/build'));
 });
 
-// Default run command
-gulp.task('default', ['runserver', 'ts-compile'], function() {
-  browserSync.init({
-    proxy: 'localhost:5000'
-  });
+// Copy the HTML templates
+gulp.task('cp-templates', function () {
+    return gulp
+      .src('frontend/src/**/*.html')
+      .pipe(gulp.dest('frontend/www/build'));
+});
 
+// Default run command
+gulp.task('default', ['runserver', 'cp-templates', 'ts-compile'], function() {
+  browserSync.init({ proxy: 'localhost:5000' });
+
+  // Watchers
+  gulp.watch(['frontend/src/**/*.html'], ['cp-templates']);
   gulp.watch(['frontend/src/**/*.ts'], ['ts-compile']);
   gulp.watch(['frontend/**/*.*'], browserSync.reload);
 });
