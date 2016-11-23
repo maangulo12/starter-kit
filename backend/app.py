@@ -4,7 +4,7 @@
     app.py
     ~~~~~~
 
-    Simple Python application using Flask.
+    Python application built using Flask.
 """
 
 from flask import Flask, render_template
