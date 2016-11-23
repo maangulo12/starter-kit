@@ -53,6 +53,8 @@ pip3 install -r /vagrant/backend/requirements.txt
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 apt-get install -y nodejs
 cd /vagrant/
+npm install -g npm
 npm install -g gulp browser-sync
+npm install -g
 
 CONTENTS
