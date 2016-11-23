@@ -2,7 +2,7 @@
 
 This is a concise skeleton for building single-page web apps with PostgreSQL, Python (Flask), and Angular 2.
 
-![Alt text] (frontend/www/assets/img/PPFA.png "PPFA")
+![Alt text] (frontend/www/assets/img/PPFA.png "PPFA stack")
 
 ## To Get Started
 
