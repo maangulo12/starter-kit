@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-    server.py
-    ~~~~~~~~~
+    __init__.py
+    ~~~~~~~~~~~
 
-    Python application built using Flask.
+    This is the main module of this application.
 """
 
 from flask import Flask, render_template
