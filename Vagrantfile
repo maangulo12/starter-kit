@@ -54,4 +54,9 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt-get install -y nodejs
 # npm install
 
+# Install NodeJS packages
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+apt-get install -y nodejs
+npm install npm -g
+
 CONTENTS
