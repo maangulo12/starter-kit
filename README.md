@@ -15,37 +15,37 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 #### Step 2: Open the command line (terminal) and type the following command
 >
 ```bash
-$ git clone https://github.com/maangulo12/starter.git
+git clone https://github.com/maangulo12/starter.git
 ```
 
 #### Step 3: Change directory into the downloaded project (cd into the folder)
 >
 ```bash
-$ cd starter-kit
+cd starter-kit
 ```
 
 #### Step 4: Run vagrant to setup the development environment
 >
 ```bash
-$ vagrant up
+vagrant up
 ```
 
 #### Step 5: SSH into the virtual machine
 >
 ```bash
-$ vagrant ssh
+vagrant ssh
 ```
 
 #### Step 6: Change directory into the vagrant folder (cd into the folder)
 >
 ```bash
-$ cd /vagrant/
+cd /vagrant/
 ```
 
 #### Step 7: Run the task runner to run the application
 >
 ```bash
-$ gulp
+gulp
 ```
 
 #### Step 9: Open [http://localhost:3000] (http://localhost:3000)
