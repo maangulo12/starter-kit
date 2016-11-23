@@ -35,11 +35,11 @@ end
 # Shell script configuration
 $shell = <<-CONTENTS
 
-# Make it noninteractive
-export DEBIAN_FRONTEND=noninteractive
-
 # Root access
 sudo -s
+
+# Make it noninteractive
+export DEBIAN_FRONTEND=noninteractive
 
 # Update apt-get
 apt-get update
@@ -50,13 +50,9 @@ pip3 install --upgrade pip
 pip3 install -r /vagrant/backend/requirements.txt
 
 # Install NodeJS packages
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 apt-get install -y nodejs
-# npm install
-
-# Install NodeJS packages
-curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-apt-get install -y nodejs
-npm install npm -g
+cd /vagrant/
+npm install -g gulp browser-sync
 
 CONTENTS
