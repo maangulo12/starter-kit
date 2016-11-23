@@ -7,7 +7,7 @@ var tscConfig   = require('./tsconfig.json');
 // Run the server
 gulp.task('runserver', function() {
     var proc = execute('python3 server.py');
-    // For non-linux use this
+    // For non-linux, use this
     // var proc = execute('python server.py');
 });
 
