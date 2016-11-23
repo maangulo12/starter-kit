@@ -1,8 +1,10 @@
 # Starter Kit
 
+![Alt text] (frontend/www/assets/img/PPFA.png "PPFA")
+
 This is a concise skeleton for getting started with Flask and Angular 2.
 
-## To get started
+## To Get Started
 
 #### Step 1: Download the following required software
 
@@ -46,6 +48,4 @@ $ cd /vagrant/
 $ gulp
 ```
 
-#### Step 9: Open [http://localhost:3000] (http://localhost:3000) in the web browser
-
-
+#### Step 9: Open [http://localhost:3000] (http://localhost:3000)
