@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-    __init__.py
+    server.py
     ~~~~~~~~~~~
 
     This is the main module of this application.
