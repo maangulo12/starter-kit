@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-    app.py
-    ~~~~~~
+    server.py
+    ~~~~~~~~~
 
     Python application built using Flask.
 """
@@ -10,7 +10,7 @@
 from flask import Flask, render_template
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='frontend', static_url_path='', static_folder='')
 
 
 @app.route('/')
