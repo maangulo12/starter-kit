@@ -1,7 +1,7 @@
 {
-  "name": "get-started",
+  "name": "starter-kit",
   "version": "1.0.0",
-  "description": "Getting started tutorial",
+  "description": "Getting started with Flask and Angular 2",
   "main": "gulpfile.js",
   "dependencies": {
     "@angular/common": "~2.2.0",
