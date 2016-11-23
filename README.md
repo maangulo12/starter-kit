@@ -18,7 +18,7 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 git clone https://github.com/maangulo12/starter.git
 ```
 
-#### Step 3: Change directory into the downloaded project (cd into the folder)
+#### Step 3: Change directory into the downloaded project
 >
 ```bash
 cd starter-kit
@@ -36,7 +36,7 @@ vagrant up
 vagrant ssh
 ```
 
-#### Step 6: Change directory into the vagrant folder (cd into the folder)
+#### Step 6: Change directory into the vagrant folder
 >
 ```bash
 cd /vagrant/
