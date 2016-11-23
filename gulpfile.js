@@ -1,15 +1,30 @@
 var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
 var execute     = require('child_process').exec;
+var browserSync = require('browser-sync').create();
+var tsc         = require('gulp-typescript');
+var tscConfig   = require('./tsconfig.json');
 
+// Run the server
 gulp.task('runserver', function() {
     var proc = execute('python3 server.py');
+    // For non-linux use this
+    // var proc = execute('python server.py');
 });
 
-gulp.task('default', ['runserver'], function() {
+// Compile the typescript files
+gulp.task('ts-compile', function() {
+  return gulp
+    .src('frontend/src/**/*.ts')
+    .pipe(tsc(tscConfig.compilerOptions))
+    .pipe(gulp.dest('frontend/www/build'));
+});
+
+// Default run command
+gulp.task('default', ['runserver', 'ts-compile'], function() {
   browserSync.init({
     proxy: 'localhost:5000'
   });
 
-  gulp.watch(['frontend/*.*', 'frontend/**/*.*'], browserSync.reload);
+  gulp.watch(['frontend/src/**/*.ts'], ['ts-compile']);
+  gulp.watch(['frontend/**/*.*'], browserSync.reload);
 });
