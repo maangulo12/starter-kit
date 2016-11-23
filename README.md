@@ -1,8 +1,8 @@
-# Starter-Kit: PostgreSQL + Python (Flask) + Angular 2
+# Starter-Kit
+
+This is a concise skeleton for getting started with PostgreSQL, Python (Flask), and Angular 2.
 
 ![Alt text] (frontend/www/assets/img/PPFA.png "PPFA")
-
-This is a concise skeleton for getting started with PostgreSQL, Python (Flask) and Angular 2.
 
 ## To Get Started
 
