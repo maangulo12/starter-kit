@@ -47,14 +47,14 @@ apt-get update
 # Install Python packages
 apt-get install -y python3-pip
 pip3 install --upgrade pip
-pip3 install -r /vagrant/backend/requirements.txt
+pip3 install -r /vagrant/requirements.txt
 
 # Install NodeJS packages
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 apt-get install -y nodejs
-cd /vagrant/
 npm install -g npm
 npm install -g gulp browser-sync
+cd /vagrant/
 npm install -g
 
 CONTENTS
