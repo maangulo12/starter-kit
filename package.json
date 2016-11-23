@@ -4,7 +4,7 @@
   "description": "Getting started tutorial",
   "main": "gulpfile.js",
   "devDependencies": {
-    "browser-sync": "^2.17.5",
+    "browser-sync": "^2.18.2",
     "gulp": "^3.9.1"
   }
 }
