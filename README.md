@@ -1,6 +1,6 @@
 # Starter-Kit
 
-This is a concise skeleton for getting started with PostgreSQL, Python (Flask), and Angular 2.
+This is a concise skeleton for building single-page web apps with PostgreSQL, Python (Flask), and Angular 2.
 
 ![Alt text] (frontend/www/assets/img/PPFA.png "PPFA")
 
