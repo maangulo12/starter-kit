@@ -13,7 +13,7 @@ https://www.vagrantup.com/
 DOC
 
 # The name of this virtual machine (VM)
-$environ = 'get-started-vm'
+$environ = 'starter-kit-vm'
 
 Vagrant.configure(2) do |config|
   # Download Ubuntu Server 14.04 LTS
