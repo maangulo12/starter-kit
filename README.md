@@ -19,6 +19,8 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 git clone https://github.com/maangulo12/starter-kit.git
 ```
 
+![Alt text] (frontend/www/assets/img/step1.png "Step 1")
+
 #### 3. Change directory into the downloaded project
 >
 ```bash
