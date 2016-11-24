@@ -73,3 +73,10 @@ gulp
 #### 8. Open [http://localhost:3000] (http://localhost:3000)
 
 ![Alt text] (frontend/www/assets/img/step8.png "Step 8")
+
+## Important Notes
+
+### To get into the virtual machine again
+*For example, after turning off your computer.*
+
+#### Follow steps 3 through 8
