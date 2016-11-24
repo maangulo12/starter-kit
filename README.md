@@ -36,6 +36,7 @@ vagrant up
 ```bash
 vagrant ssh
 ```
+
 Passphrase for key: (just press Enter)
 Password: vagrant
 
