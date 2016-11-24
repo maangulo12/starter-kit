@@ -13,7 +13,7 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 + [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
 + [Vagrant] (https://www.vagrantup.com/downloads.html) (required)
 
-#### 2. Open the command line (terminal) and type the following command
+#### 2. Open the command line (terminal) and type the following command:
 >
 ```bash
 git clone https://github.com/maangulo12/starter-kit.git
@@ -21,7 +21,7 @@ git clone https://github.com/maangulo12/starter-kit.git
 
 ![Alt text] (frontend/www/assets/img/step2.png "Step 2")
 
-#### 3. Change directory into the downloaded project
+#### 3. Change directory into the downloaded project:
 >
 ```bash
 cd starter-kit
@@ -29,7 +29,7 @@ cd starter-kit
 
 ![Alt text] (frontend/www/assets/img/step3.png "Step 3")
 
-#### 4. Run vagrant to setup the development environment
+#### 4. Run vagrant to setup the development environment:
 >
 ```bash
 vagrant up
@@ -39,7 +39,7 @@ vagrant up
 
 *This step may take some time.*
 
-#### 5. SSH into the virtual machine
+#### 5. SSH into the virtual machine:
 >
 ```bash
 vagrant ssh
@@ -54,7 +54,7 @@ Passphrase for key: (just press Enter)
 Password: vagrant
 ```
 
-#### 6. Change directory into the vagrant folder
+#### 6. Change directory into the vagrant folder:
 >
 ```bash
 cd /vagrant/
@@ -62,7 +62,7 @@ cd /vagrant/
 
 ![Alt text] (frontend/www/assets/img/step6.png "Step 6")
 
-#### 7. Run the task runner to run the application
+#### 7. Run the task runner to run the application:
 >
 ```bash
 gulp
