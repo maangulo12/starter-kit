@@ -81,6 +81,6 @@ Follow steps 3 through 8 from above.
 
 #### 2. I have made changes to a page but browser is not displaying the changes.
 
-Close the browser. Restart the application. Cancel (CTRL-C) the gulp command 
-and run the gulp command once again. Open the browser again and go to
-[http://localhost:3000](http://localhost:3000).
+Close the browser. Restart the application. Cancel the gulp command 
+(press CTRL-C) and run the gulp command once again. Open the browser again 
+and go to [http://localhost:3000](http://localhost:3000).
