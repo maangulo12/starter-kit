@@ -74,9 +74,7 @@ gulp
 
 ![Alt text] (frontend/www/assets/img/step8.png "Step 8")
 
-## Important Notes
+## Frequently Asked Questions
 
-### To get into the virtual machine again
-*For example, after turning off your computer.*
-
-#### Follow steps 3 through 8
+### 1. How do you I get into the virtual machine after turning off my computer?
+*Follow steps 3 through 8 from above.*
