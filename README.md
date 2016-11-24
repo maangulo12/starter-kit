@@ -76,5 +76,10 @@ gulp
 
 ## Frequently Asked Questions (FAQ)
 
-### 1. How do you I get into the virtual machine after turning off my computer?
-*Follow steps 3 through 8 from above.*
+#### 1. How do you run the application again after turning off my computer?
+Follow steps 3 through 8 from above.
+
+#### 2. I have made changes to a page but browser is not displaying the changes.
+
+Close your browser. Restart the application by canceling (CTRL-C) the gulp command 
+and running the gulp command once again. Open the browser again.
