@@ -36,6 +36,7 @@ vagrant up
 ```bash
 vagrant ssh
 ```
+Password: vagrant
 
 #### 6. Change directory into the vagrant folder
 >
