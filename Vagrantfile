@@ -26,8 +26,6 @@ Vagrant.configure(2) do |config|
   end
   # Provision this VM using this shell script
   config.vm.provision :shell, inline: $shell
-  # Open 5000 port of this VM to communicate with 5000 port of this local PC
-  config.vm.network :forwarded_port, guest: 5000, host: 5000
   # Open 3000 port of this VM to communicate with 3000 port of this local PC
   config.vm.network :forwarded_port, guest: 3000, host: 3000
 end
@@ -51,10 +49,10 @@ pip3 install -r /vagrant/requirements.txt
 
 # Install NodeJS packages
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-apt-get install -y nodejs
-npm install -g npm
-npm install -g gulp browser-sync
+apt-get install -y nodejs build-essential
+npm install -g npm gulp
 cd /vagrant/
-npm install
+npm install --no-bin-links
+npm rebuild node-sass --no-bin-links
 
 CONTENTS
