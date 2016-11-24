@@ -76,7 +76,7 @@ gulp
 
 ## Frequently Asked Questions (FAQ)
 
-#### 1. How do you run the application again after turning off my computer?
+#### 1. How do I run the application again after turning off my computer?
 Follow steps 3 through 8 from above.
 
 #### 2. I have made changes to a page but browser is not displaying the changes.
