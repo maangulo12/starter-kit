@@ -27,6 +27,8 @@ git clone https://github.com/maangulo12/starter-kit.git
 cd starter-kit
 ```
 
+![Alt text] (frontend/www/assets/img/step2.png "Step 2")
+
 #### 4. Run vagrant to setup the development environment
 >
 ```bash
