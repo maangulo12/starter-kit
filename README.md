@@ -70,7 +70,7 @@ gulp
 
 ![Alt text] (frontend/www/assets/img/step7.png "Step 7")
 
-#### 8. Open [http://localhost:3000] (http://localhost:3000)
+#### 8. Open [http://localhost:3000](http://localhost:3000):
 
 ![Alt text] (frontend/www/assets/img/step8.png "Step 8")
 
