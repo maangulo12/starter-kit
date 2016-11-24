@@ -37,15 +37,22 @@ vagrant up
 
 ![Alt text] (frontend/www/assets/img/step4.png "Step 4")
 
+*This step may take some time.*
+
 #### 5. SSH into the virtual machine
 >
 ```bash
 vagrant ssh
 ```
 
-*Passphrase for key: (just press Enter)*
+![Alt text] (frontend/www/assets/img/step5.png "Step 5")
 
+*It may ask you to enter a passphrase and a password.* 
+
+```
+*Passphrase for key: (just press Enter)*
 *Password: vagrant*
+```
 
 #### 6. Change directory into the vagrant folder
 >
