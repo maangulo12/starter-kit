@@ -38,6 +38,7 @@ vagrant ssh
 ```
 
 Passphrase for key: (just press Enter)
+
 Password: vagrant
 
 #### 6. Change directory into the vagrant folder
