@@ -16,7 +16,7 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 #### 2. Open the command line (terminal) and type the following command
 >
 ```bash
-git clone https://github.com/maangulo12/starter.git
+git clone https://github.com/maangulo12/starter-kit.git
 ```
 
 #### 3. Change directory into the downloaded project
