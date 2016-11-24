@@ -50,8 +50,8 @@ vagrant ssh
 *It may ask you to enter a passphrase and a password.* 
 
 ```
-*Passphrase for key: (just press Enter)*
-*Password: vagrant*
+Passphrase for key: (just press Enter)
+Password: vagrant
 ```
 
 #### 6. Change directory into the vagrant folder
@@ -60,10 +60,16 @@ vagrant ssh
 cd /vagrant/
 ```
 
+![Alt text] (frontend/www/assets/img/step6.png "Step 6")
+
 #### 7. Run the task runner to run the application
 >
 ```bash
 gulp
 ```
 
+![Alt text] (frontend/www/assets/img/step7.png "Step 7")
+
 #### 8. Open [http://localhost:3000] (http://localhost:3000)
+
+![Alt text] (frontend/www/assets/img/step8.png "Step 8")
