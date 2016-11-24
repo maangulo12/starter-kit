@@ -19,7 +19,7 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 git clone https://github.com/maangulo12/starter-kit.git
 ```
 
-![Alt text] (frontend/www/assets/img/step1.png "Step 1")
+![Alt text] (frontend/www/assets/img/step2.png "Step 2")
 
 #### 3. Change directory into the downloaded project
 >
@@ -27,13 +27,15 @@ git clone https://github.com/maangulo12/starter-kit.git
 cd starter-kit
 ```
 
-![Alt text] (frontend/www/assets/img/step2.png "Step 2")
+![Alt text] (frontend/www/assets/img/step3.png "Step 3")
 
 #### 4. Run vagrant to setup the development environment
 >
 ```bash
 vagrant up
 ```
+
+![Alt text] (frontend/www/assets/img/step4.png "Step 4")
 
 #### 5. SSH into the virtual machine
 >
