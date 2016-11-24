@@ -6,13 +6,13 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
 
 ## To Get Started
 
-#### 1. Download the following required software and install
+#### 1. Download and install the following required software
 
 + [git] (https://git-scm.com/downloads)
 + [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
 + [Vagrant] (https://www.vagrantup.com/downloads.html)
 
-For Windows users, download the additional required software and install
+For Windows users, download and install the additional required software
 + [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect)
 
 #### 2. Open the command line (terminal) and type the following command
