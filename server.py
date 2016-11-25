@@ -8,14 +8,21 @@
 """
 
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 
 
+# Creating the Flask application
 app = Flask(__name__,
             template_folder='frontend/www',
             static_url_path='',
             static_folder='')
 
 
+# Configuring the application from config module
+app.config.from_pyfile('backend/config.py')
+
+
+# Initial view of this application
 @app.route('/')
 def index():
     """Render the initial view."""
