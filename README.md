@@ -79,7 +79,7 @@ gulp
 #### 1. How do I run the application again after turning off my computer?
 Follow steps 3 through 8 from above.
 
-#### 2. I have made changes to a page but browser is not displaying the changes.
+#### 2. I have made changes to a page, but browser is not displaying the changes.
 
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
