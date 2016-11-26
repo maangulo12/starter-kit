@@ -21,6 +21,12 @@ app = Flask(__name__,
 # Configuring the application from config module
 app.config.from_pyfile('backend/config.py')
 
+# Initializing Flask extensions
+db = SQLAlchemy(app)
+
+
+# Importing database models
+from app import models
 
 # Initial view of this application
 @app.route('/')
