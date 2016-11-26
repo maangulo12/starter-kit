@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
     server.py
-    ~~~~~~~~~~~
+    ~~~~~~~~~
 
     This is the main module of this application.
 """
