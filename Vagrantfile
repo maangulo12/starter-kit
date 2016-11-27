@@ -45,7 +45,19 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 
 # Install PostgreSQL
+apt-get -y install postgresql postgresql-contrib
+cp /vagrant/vagrant/pg_ident.conf /etc/postgresql/9.3/main/pg_ident.conf
+cp /vagrant/vagrant/pg_hba.conf /etc/postgresql/9.3/main/pg_hba.conf
+sed -i -e "s/^#listen_addresses = '.*'/listen_addresses = '*'/" /etc/postgresql/9.3/main/postgresql.conf
 
+# Create database
+service postgresql restart
+sudo -u postgres psql << EOF
+    ALTER ROLE postgres PASSWORD 'password';
+EOF
+sudo -u postgres psql << EOF
+    CREATE DATABASE app_db;
+EOF
 
 # Install Python packages
 apt-get install -y python3-pip
