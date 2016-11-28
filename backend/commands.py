@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+    backend.commands
+    ~~~~~~~~~~~~~~~~
+
+    This module implements the manager commands of this application.
+
+    Commands:
+    - create : Creates all of the tables in the database.
+    - drop   : Drops all of the tables from the database.
+"""
+
+from ..server import manager, db
+
+
+# COMMAND: create
+@manager.command
+def create():
+    """Creates all of the tables in the database."""
+    db.create_all()
+    print('Created all of the tables in the database.')
+
+
+# COMMAND: drop
+@manager.command
+def drop():
+    """Drops all of the tables from the database."""
+    db.drop_all()
+    print('Dropped all of the tables from the database.')
