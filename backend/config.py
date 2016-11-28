@@ -4,7 +4,7 @@
     backend.config
     ~~~~~~~~~~~~~~
 
-    This module is used to configure this application.
+    This is configuration module for this application.
 """
 
 import os
