@@ -7,6 +7,8 @@
     This module implements the views of this application.
 """
 
+from flask import render_template
+
 from ..server import app
 
 
@@ -14,3 +16,6 @@ from ..server import app
 def index():
     """This is the initial view of this application."""
     return render_template('index.html')
+
+
+# More views can be added here...
