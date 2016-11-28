@@ -16,6 +16,7 @@ import os
 
 # Flask configuration values
 SECRET_KEY = os.environ.get('SECRET_KEY', 'secret_key')
+DEBUG      = os.environ.get('DEBUG', True)
 
 # Flask-SQLAlchemy configuration values
 SQLALCHEMY_DATABASE_URI        = os.environ.get('DATABASE_URL', 'postgresql://postgres:password@localhost:5432/app_db')
