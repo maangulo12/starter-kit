@@ -18,10 +18,10 @@ from ..server import db, bcrypt
 
 
 class User(db.Model):
-    """This is the first model in our database."""
+    """This is the first model in the database."""
     __tablename__ = 'users'
 
-    # Fields
+    # Fields in the table
     id       = db.Column(db.Integer, primary_key=True)
     email    = db.Column(db.String(50), nullable=False, unique=True)
     username = db.Column(db.String(30), nullable=False, unique=True)
@@ -41,3 +41,6 @@ class User(db.Model):
     def check_password(self, password):
         """This is a helper function for checking the user's password."""
         return bcrypt.check_password_hash(self.password, password)
+
+
+# More models can be added here...
