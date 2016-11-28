@@ -5,10 +5,15 @@
     ~~~~~~~~~
 
     This is the main module of this application.
+
+    Flask extensions included in this application:
+    - Flask-SQLAlchemy : Used for creating database models (using SQLAlchemy).
+    - Flask-Bcrypt     : Used for hashing the passwords in the database.
 """
 
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 
 
 # Creating the Flask application
@@ -17,16 +22,15 @@ app = Flask(__name__,
             static_url_path='',
             static_folder='')
 
-
 # Configuring the application from config module
 app.config.from_pyfile('backend/config.py')
 
-# Initializing Flask extensions
+# Initializing the Flask extensions
 db = SQLAlchemy(app)
-
+bcrypt = Bcrypt(app)
 
 # Importing database models
-from app import models
+from backend import models
 
 # Initial view of this application
 @app.route('/')
