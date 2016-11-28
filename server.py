@@ -9,11 +9,13 @@
     Flask extensions included in this application:
     - Flask-SQLAlchemy : Used for creating database models (using SQLAlchemy).
     - Flask-Bcrypt     : Used for hashing the passwords in the database.
+    - Flask-Script     : Used for adding support for command-line tasks.
 """
 
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
+from flask_script import Manager
 
 
 # Creating the Flask application
@@ -26,17 +28,18 @@ app = Flask(__name__,
 app.config.from_pyfile('backend/config.py')
 
 # Initializing the Flask extensions
-db = SQLAlchemy(app)
-bcrypt = Bcrypt(app)
+db      = SQLAlchemy(app)
+bcrypt  = Bcrypt(app)
+manager = Manager(app)
 
-# Importing database models
+# Importing the database models
 from backend import models
 
-# Initial view of this application
-@app.route('/')
-def index():
-    """Render the initial view."""
-    return render_template('index.html')
+# Importing the app views
+from backend import views
+
+# Importing the app manager commands
+from backend import commands
 
 
 if __name__ == "__main__":
