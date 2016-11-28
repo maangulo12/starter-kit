@@ -8,7 +8,7 @@
 
     Flask extensions included in this application:
     - Flask-SQLAlchemy : Used for creating database models (using SQLAlchemy).
-    - Flask-Bcrypt     : Used for hashing the passwords in the database.
+    - Flask-Bcrypt     : Used for hashing passwords.
     - Flask-Script     : Used for adding support for command-line tasks.
 """
 
@@ -21,7 +21,7 @@ from flask_script import Manager
 # Creating the Flask app
 app = Flask(__name__,
             template_folder='../frontend/www',
-            static_url_path='../',
+            static_url_path='',
             static_folder='../')
 
 # Configuring the app from config module
