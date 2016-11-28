@@ -109,13 +109,14 @@ starter-kit/
  |
  ├──.gitignore                 * specifies files that Git should ignore
  ├──gulpfile.js                * 
- ├──package.json               * 
+ ├──package.json               * what npm uses to manage its dependencies
  ├──README.md                  * 
  ├──requirements.txt           * 
  ├──runtime.txt                * 
  ├──server.py                  * 
  ├──tsconfig.json              * 
  ├──typings.json               * 
+ └──Vagrantfile                * 
 ```
 
 ## Frequently Asked Questions
