@@ -84,7 +84,41 @@ gulp
 
 ![Alt text] (frontend/www/assets/img/step8.png "Step 8")
 
-## Frequently Asked Questions (FAQ)
+## File Structure
+
+```
+starter-kit/
+ ├──backend/                   * our backend (server-side) code folder
+ |   ├──__init__.py            * main module of the application
+ |   ├──commands.py            * implements functions for doing command-line tasks
+ |   ├──config.py              * our app configuration module
+ |   ├──models.py              * our database models
+ │   ├──view.py                * our app views
+ │   │
+ │   └──api/                   * our API folder
+ │       └──v1/                * our API v1 folder
+ |           ├──__init__.py    * our API v1 package module
+ │           └──api.py         * implements the first API endpoints 
+ │                               (can be broken into multiple modules or packages)
+ |
+ ├──frontend/                  * our frontend (client-side) code folder
+ |   ├──this needs work!
+ │
+ ├──vagrant/                   * vagrant configuration folder 
+ |   ├──this needs work!
+ |
+ ├──.gitignore                 * specifies files that Git should ignore
+ ├──gulpfile.js                * 
+ ├──package.json               * 
+ ├──README.md                  * 
+ ├──requirements.txt           * 
+ ├──runtime.txt                * 
+ ├──server.py                  * 
+ ├──tsconfig.json              * 
+ ├──typings.json               * 
+```
+
+## Frequently Asked Questions
 
 #### 1. How do I run the application again after turning off my computer?
 Follow steps 3 through 8 from above.
