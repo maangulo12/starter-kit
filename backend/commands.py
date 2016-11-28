@@ -6,6 +6,9 @@
 
     This module implements the manager commands of this application.
 
+    For more information on how to create commands:
+    - Flask-Script : https://flask-script.readthedocs.io/en/latest/
+
     Commands:
     - create : Creates all of the tables in the database.
     - drop   : Drops all of the tables from the database.
@@ -28,3 +31,6 @@ def drop():
     """Drops all of the tables from the database."""
     db.drop_all()
     print('Dropped all of the tables from the database.')
+
+
+# More commands can be added here...
