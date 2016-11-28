@@ -14,7 +14,7 @@
         - Flask-Bcrypt : https://flask-bcrypt.readthedocs.io/en/latest/
 """
 
-from server import db, bcrypt
+from ..server import db, bcrypt
 
 
 class User(db.Model):
