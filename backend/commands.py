@@ -14,7 +14,7 @@
     - drop   : Drops all of the tables from the database.
 """
 
-from ..server import manager, db
+from backend import manager, db
 
 
 # COMMAND: create
