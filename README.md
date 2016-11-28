@@ -8,7 +8,13 @@ This is a concise skeleton for building single-page web apps with PostgreSQL, Py
   </a>
 </p>
 
-## To Get Started
+
+# Table of Contents
+* [Getting Started] (#getting-started)
+* [File Structure] (#file-structure)
+* [Frequently Asked Questions] (#frequently-asked-questions)
+
+## Getting Started
 
 #### 1. Download and install the following software:
 
