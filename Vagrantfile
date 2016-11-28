@@ -60,7 +60,7 @@ sudo -u postgres psql << EOF
 EOF
 
 # Install Python packages
-apt-get install -y python3-pip
+apt-get install -y python3-pip libffi-dev libpq-dev
 pip3 install --upgrade pip
 pip3 install -r /vagrant/requirements.txt
 
