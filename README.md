@@ -1,6 +1,7 @@
 # Starter-Kit
 
-This is a concise skeleton for building single-page web apps with PostgreSQL, Python (Flask), and Angular 2.
+This is a concise skeleton for building single-page web apps with [PostgreSQL] (https://www.postgresql.org/), 
+Python ([Flask] (http://flask.pocoo.org/)), and [Angular 2] (https://angular.io/).
 
 <p align="center">
   <a href="" target="_blank">
@@ -108,15 +109,15 @@ starter-kit/
  |   ├──this needs work!
  |
  ├──.gitignore                 * specifies files that Git should ignore
- ├──gulpfile.js                * 
+ ├──gulpfile.js                
  ├──package.json               * what npm uses to manage its dependencies
- ├──README.md                  * 
- ├──requirements.txt           * 
- ├──runtime.txt                * 
- ├──server.py                  * 
- ├──tsconfig.json              * 
- ├──typings.json               * 
- └──Vagrantfile                * 
+ ├──README.md                   
+ ├──requirements.txt            
+ ├──runtime.txt                 
+ ├──server.py                   
+ ├──tsconfig.json               
+ ├──typings.json                
+ └──Vagrantfile                 
 ```
 
 ## Frequently Asked Questions
