@@ -1,7 +1,7 @@
 # Starter-Kit
 
 This is a concise skeleton for building single-page web apps with [PostgreSQL] (https://www.postgresql.org/), 
-Python ([Flask] (http://flask.pocoo.org/)), and [Angular 2] (https://angular.io/).
+Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), and [Heroku] (https://www.heroku.com/).
 
 <p align="center">
   <a href="" target="_blank">
