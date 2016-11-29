@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-    server.py
-    ~~~~~~~~~
+    backend package
+    ~~~~~~~~~~~~~~~
 
     This is the main module of this application.
 
