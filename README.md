@@ -15,7 +15,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 * [File Structure] (#file-structure)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
-### Getting Started
+## Getting Started
 
 #### 1. Download and install the following software:
 
@@ -122,7 +122,7 @@ starter-kit/
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 #### 1. How do I run the application again after turning off my computer?
 Follow steps 3 through 8 from above.
