@@ -21,7 +21,7 @@ class User(db.Model):
     """This is the first model in the database."""
     __tablename__ = 'users'
 
-    # Fields in the table
+    # Fields in this model
     id       = db.Column(db.Integer, primary_key=True)
     email    = db.Column(db.String(50), nullable=False, unique=True)
     username = db.Column(db.String(30), nullable=False, unique=True)
