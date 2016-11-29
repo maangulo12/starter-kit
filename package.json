@@ -1,7 +1,7 @@
 {
   "name": "starter-kit",
   "version": "1.0.0",
-  "description": "Getting started with Flask and Angular 2",
+  "description": "A concise skeleton for building single-page web apps.",
   "main": "gulpfile.js",
   "dependencies": {
     "@angular/common": "~2.2.0",
