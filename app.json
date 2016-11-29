@@ -7,11 +7,11 @@
   },
   "env": {
     "SECRET_KEY": {
-      "description": "A secret key for this application.",
+      "description": "A secret key for this Flask app.",
       "generator": "secret"
     },
     "DEBUG": {
-      "description": "Enable/disable debug mode.",
+      "description": "Enable/disable debug mode for this Flask app.",
       "value": "False"
     },
     "SQLALCHEMY_DATABASE_URI": {
