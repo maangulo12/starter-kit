@@ -10,12 +10,12 @@ Python ([Flask] (http://flask.pocoo.org/)), and [Angular 2] (https://angular.io/
 </p>
 
 
-# Table of Contents
+## Table of Contents
 * [Getting Started] (#getting-started)
 * [File Structure] (#file-structure)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
-## Getting Started
+### Getting Started
 
 #### 1. Download and install the following software:
 
@@ -85,42 +85,44 @@ gulp
 
 ![Alt text] (frontend/www/assets/img/step8.png "Step 8")
 
-## File Structure
+### File Structure
 
 ```
 starter-kit/
  ├──backend/                   * our backend (server-side) code folder
- |   ├──__init__.py            * main module of the application
+ |   ├──__init__.py            * our main module for this app
  |   ├──commands.py            * implements functions for doing command-line tasks
  |   ├──config.py              * our app configuration module
  |   ├──models.py              * our database models
  │   ├──view.py                * our app views
  │   │
- │   └──api/                   * our API folder
- │       └──v1/                * our API v1 folder
- |           ├──__init__.py    * our API v1 package module
+ │   └──api/                   * our api folder
+ │       └──v1/                * our api v1 folder
+ |           ├──__init__.py    * our api v1 package module
  │           └──api.py         * implements the first API endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
  │
- ├──vagrant/                   * vagrant configuration folder 
+ ├──vagrant/                   * our vagrant configuration folder 
  |   ├──this needs work!
  |
- ├──.gitignore                 * specifies files that Git should ignore
- ├──gulpfile.js                
- ├──package.json               * what npm uses to manage its dependencies
- ├──README.md                   
- ├──requirements.txt            
- ├──runtime.txt                 
- ├──server.py                   
- ├──tsconfig.json               
- ├──typings.json                
- └──Vagrantfile                 
+ ├──.gitignore                 * specifies files that git should ignore
+ ├──app.json                   * specifies information required to run this app on Heroku
+ ├──gulpfile.js                * our build system config file for automating tasks
+ ├──package.json               * specifies our node dependencies
+ ├──Procfile                   * what Heroku uses to deploy the app
+ ├──README.md                  * this README file 
+ ├──requirements.txt           * specifies our python dependencies
+ ├──runtime.txt                * specifies our python runtime version
+ ├──server.py                  * our python server script 
+ ├──tsconfig.json              * specifies options for the typescript compiler  
+ ├──typings.json               * specifies packages that the typescript compiler needs 
+ └──Vagrantfile                * what vagrant uses to configure and provision the virtual machine
 ```
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 
 #### 1. How do I run the application again after turning off my computer?
 Follow steps 3 through 8 from above.
