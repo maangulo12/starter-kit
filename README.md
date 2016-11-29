@@ -99,7 +99,7 @@ starter-kit/
  │       └──v1/                * our API v1 folder
  |           ├──__init__.py    * our API v1 package module
  │           └──api.py         * implements the first API endpoints 
- │                               (can be broken into multiple modules or packages)
+ │                               (this module can be broken into multiple modules or packages)
  |
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
