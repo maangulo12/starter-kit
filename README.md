@@ -92,21 +92,22 @@ starter-kit/
  ├──backend/                   * our backend (server-side) code folder
  |   ├──__init__.py            * our main module for this app
  |   ├──commands.py            * implements functions for doing command-line tasks
- |   ├──config.py              * our app configuration module
+ |   ├──config.py              * our app config module
  |   ├──models.py              * our database models
  │   ├──view.py                * our app views
  │   │
  │   └──api/                   * our api folder
  │       └──v1/                * our api v1 folder
  |           ├──__init__.py    * our api v1 package module
- │           └──api.py         * implements the first API endpoints 
+ │           └──api.py         * implements the first api endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
  │
- ├──vagrant/                   * our vagrant configuration folder 
- |   ├──this needs work!
+ ├──local/                     * our local config folder
+ │   ├──pg_hba.conf            * config file used by vagrant for authentication to the local database 
+ │   └──pg_ident.conf          * config file used by vagrant for authentication to the local database
  |
  ├──.gitignore                 * specifies files that git should ignore
  ├──app.json                   * specifies information required to run this app on Heroku
@@ -118,7 +119,7 @@ starter-kit/
  ├──runtime.txt                * specifies our python runtime version
  ├──server.py                  * our python server script 
  ├──tsconfig.json              * specifies options for the typescript compiler  
- ├──typings.json               * specifies packages that the typescript compiler needs 
+ ├──typings.json               * specifies packages needed by the typescript compiler
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
