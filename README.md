@@ -119,7 +119,7 @@ starter-kit/
  ├──server.py                  * our python server script 
  ├──tsconfig.json              * specifies options for the typescript compiler  
  ├──typings.json               * specifies packages that the typescript compiler needs 
- └──Vagrantfile                * what vagrant uses to configure and provision the virtual machine
+ └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
 ### Frequently Asked Questions
