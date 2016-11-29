@@ -45,7 +45,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 
 # Install PostgreSQL
-apt-get -y install postgresql postgresql-contrib
+apt-get -y install postgresql postgresql-contrib libpq-dev
 cp /vagrant/vagrant/pg_ident.conf /etc/postgresql/9.3/main/pg_ident.conf
 cp /vagrant/vagrant/pg_hba.conf /etc/postgresql/9.3/main/pg_hba.conf
 sed -i -e "s/^#listen_addresses = '.*'/listen_addresses = '*'/" /etc/postgresql/9.3/main/postgresql.conf
@@ -60,7 +60,7 @@ sudo -u postgres psql << EOF
 EOF
 
 # Install Python packages
-apt-get install -y python3-pip libffi-dev libpq-dev
+apt-get install -y python3-pip libffi-dev
 pip3 install --upgrade pip
 pip3 install -r /vagrant/requirements.txt
 
