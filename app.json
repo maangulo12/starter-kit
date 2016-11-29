@@ -1,0 +1,29 @@
+{
+  "name": "starter-kit",
+  "description": "A concise skeleton for building single-page web apps.",
+  "website": "https://github.com/maangulo12/starter-kit",
+  "scripts": {
+    "postdeploy": ""
+  },
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for this application.",
+      "generator": "secret"
+    },
+    "DEBUG": {
+      "description": "Enable/disable debug mode.",
+      "value": "False"
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
