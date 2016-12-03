@@ -9,7 +9,6 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
   </a>
 </p>
 
-
 ## Table of Contents
 * [Getting Started] (#getting-started)
 * [File Structure] (#file-structure)
