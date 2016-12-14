@@ -16,6 +16,3 @@ from backend import app
 def index():
     """This is the initial view of this application."""
     return render_template('index.html')
-
-
-# More views can be added here...
