@@ -87,7 +87,7 @@ starter-kit/
  │   └──api/                   * our api folder
  │       └──v1/                * our api v1 folder
  |           ├──__init__.py    * our api v1 package module
- │           └──api.py         * implements the first api endpoints 
+ │           └──endpoints.py   * implements the first api endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──docs/                      * contains documentation about the starter-kit
@@ -153,6 +153,12 @@ To download the application, go to [pgAdmin] (https://www.pgadmin.org/).
 
 ### Flask
 + [Flask Website] (http://flask.pocoo.org/)
++ [Flask-Bcrypt Docs] (https://flask-bcrypt.readthedocs.io/en/latest/)
++ [Flask-SQLAlchemy Docs] (http://flask-sqlalchemy.pocoo.org/2.1/)
++ [SQLAlchemy Docs] (http://www.sqlalchemy.org/)
++ [Flask-Restless Docs] (https://flask-restless.readthedocs.io/en/stable/)
++ [Flask-Script Docs] (https://flask-script.readthedocs.io/en/latest/)
++ [Flask-Migrate Docs] (https://flask-migrate.readthedocs.io/en/latest/)
 
 ## Frequently Asked Questions
 
