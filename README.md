@@ -169,4 +169,4 @@ Follow steps 3 through 8 from above.
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
 and go to [http://localhost:3000](http://localhost:3000). If that does not fix
-the issue, try to delete all the browser history and refresh the page again.
+the issue, delete all the browser history and refresh the page again.
