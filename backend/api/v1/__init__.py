@@ -6,3 +6,5 @@
 
     This package contains the API v1 endpoints of this application.
 """
+
+URL = 'api/v1'
