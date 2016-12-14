@@ -5,7 +5,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 
 <p align="center">
   <a href="" target="_blank">
-    <img alt="PPFA stack" src="frontend/www/assets/img/PPFA.png"></img>
+    <img alt="PPFA stack" src="docs/img/PPFA.png"></img>
   </a>
 </p>
 
@@ -29,7 +29,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 git clone https://github.com/maangulo12/starter-kit.git
 ```
 
-![Alt text] (frontend/www/assets/img/step2.png "Step 2")
+![Alt text] (docs/img/step2.png "Step 2")
 
 #### 3. Change directory into the downloaded project:
 >
@@ -37,7 +37,7 @@ git clone https://github.com/maangulo12/starter-kit.git
 cd starter-kit
 ```
 
-![Alt text] (frontend/www/assets/img/step3.png "Step 3")
+![Alt text] (docs/img/step3.png "Step 3")
 
 #### 4. Run vagrant to setup the development environment:
 >
@@ -45,7 +45,7 @@ cd starter-kit
 vagrant up
 ```
 
-![Alt text] (frontend/www/assets/img/step4.png "Step 4")
+![Alt text] (docs/img/step4.png "Step 4")
 
 *This step may take some time.*
 
@@ -55,7 +55,7 @@ vagrant up
 vagrant ssh
 ```
 
-![Alt text] (frontend/www/assets/img/step5.png "Step 5")
+![Alt text] (docs/img/step5.png "Step 5")
 
 *It may ask you to enter a passphrase and a password.* 
 
@@ -70,7 +70,7 @@ Password: vagrant
 cd /vagrant/
 ```
 
-![Alt text] (frontend/www/assets/img/step6.png "Step 6")
+![Alt text] (docs/img/step6.png "Step 6")
 
 #### 7. Run the task runner to run the application:
 >
@@ -78,11 +78,11 @@ cd /vagrant/
 gulp
 ```
 
-![Alt text] (frontend/www/assets/img/step7.png "Step 7")
+![Alt text] (docs/img/step7.png "Step 7")
 
 #### 8. Open [http://localhost:3000](http://localhost:3000):
 
-![Alt text] (frontend/www/assets/img/step8.png "Step 8")
+![Alt text] (docs/img/step8.png "Step 8")
 
 ### File Structure
 
@@ -100,6 +100,9 @@ starter-kit/
  │           └──api.py         * implements the first api endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
+ ├──docs/                      * contains documentation about the starter-kit
+ |   └──all files                (this folder can be deleted after downloading it)
+ │
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
  │
@@ -125,8 +128,8 @@ starter-kit/
 ## Database on the Virtual Machine
 
 #### PostgreSQL Database
-    Host: localhost
-    Port: 5432
+    Host:     localhost
+    Port:     5432
     Database: app_db
     Username: postgres
     Password: password
