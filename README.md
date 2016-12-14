@@ -111,6 +111,7 @@ starter-kit/
  ├──.gitignore                 * specifies files that git should ignore
  ├──app.json                   * specifies information required to run this app on Heroku
  ├──gulpfile.js                * our build system config file for automating tasks
+ ├──manage.py                  * our python script for performing commands
  ├──package.json               * specifies our node dependencies
  ├──Procfile                   * what Heroku uses to deploy the app
  ├──README.md                  * this README file 
@@ -122,6 +123,10 @@ starter-kit/
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
+## Database information
+
+
+
 ## Frequently Asked Questions
 
 #### 1. How do I run the application again after turning off my computer?
@@ -132,3 +137,5 @@ Follow steps 3 through 8 from above.
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
 and go to [http://localhost:3000](http://localhost:3000).
+
+#### 3. Firefox is not displaying my changes
