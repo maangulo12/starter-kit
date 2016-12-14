@@ -90,7 +90,6 @@ gulp
 starter-kit/
  ├──backend/                   * our backend (server-side) code folder
  |   ├──__init__.py            * our main module for this app
- |   ├──commands.py            * implements functions for doing command-line tasks
  |   ├──config.py              * our app config module
  |   ├──models.py              * our database models
  │   ├──view.py                * our app views
