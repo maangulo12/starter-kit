@@ -14,5 +14,5 @@ from backend import app
 
 @app.route('/')
 def index():
-    """This is the initial view of this application."""
+    """This is the first view of this application."""
     return render_template('index.html')
