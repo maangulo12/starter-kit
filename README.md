@@ -19,7 +19,6 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 ## Getting Started
 
 #### 1. Download and install the following software:
-
 + [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
 + [git] (https://git-scm.com/downloads) (required)
 + [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
@@ -30,7 +29,6 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 ```bash
 git clone https://github.com/maangulo12/starter-kit.git
 ```
-
 ![Alt text] (docs/img/step2.png "Step 2")
 
 #### 3. Change directory into the downloaded project:
@@ -38,7 +36,6 @@ git clone https://github.com/maangulo12/starter-kit.git
 ```bash
 cd starter-kit
 ```
-
 ![Alt text] (docs/img/step3.png "Step 3")
 
 #### 4. Run vagrant to setup the development environment:
@@ -46,9 +43,7 @@ cd starter-kit
 ```bash
 vagrant up
 ```
-
 ![Alt text] (docs/img/step4.png "Step 4")
-
 *This step may take some time.*
 
 #### 5. SSH into the virtual machine:
@@ -56,11 +51,9 @@ vagrant up
 ```bash
 vagrant ssh
 ```
-
 ![Alt text] (docs/img/step5.png "Step 5")
 
 *It may ask you to enter a passphrase and a password.* 
-
 ```
 Passphrase for key: (just press Enter)
 Password: vagrant
@@ -71,7 +64,6 @@ Password: vagrant
 ```bash
 cd /vagrant/
 ```
-
 ![Alt text] (docs/img/step6.png "Step 6")
 
 #### 7. Run the task runner to run the application:
@@ -79,15 +71,12 @@ cd /vagrant/
 ```bash
 gulp
 ```
-
 ![Alt text] (docs/img/step7.png "Step 7")
 
 #### 8. Open [http://localhost:3000](http://localhost:3000):
-
 ![Alt text] (docs/img/step8.png "Step 8")
 
 ### File Structure
-
 ```
 starter-kit/
  ├──backend/                   * our backend (server-side) code folder
@@ -137,41 +126,33 @@ starter-kit/
     Password: password
 
 ### pgAdmin
-
 pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
 To download the application, go to [pgAdmin] (https://www.pgadmin.org/). 
 
 ### Connecting to PostgreSQL Database using pgAdmin
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
-
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
 
 #### 2. Add a name for the server.
-
 ![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
 
 #### 3. Click on the "Connection" tab.
-
 ![Alt text] (docs/img/pgAdmin3.png "pgAdmin Step 3")
 
 #### 4. Enter all the fields and click "Save."
-
 ![Alt text] (docs/img/pgAdmin4.png "pgAdmin Step 4")
 
-#### 5. If the connection is successful, the database will appear on the left side of the screen. 
-
+#### 5. If the connection is successful, the database will appear on the left side of the screen.
 ![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
 
 ## Resources for Learning
 
 ### Angular 2
-
 + [Angular 2 Docs] (https://angular.io/docs/ts/latest/)
 + [Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
 
 ### Flask
-
 + [Flask Website] (http://flask.pocoo.org/)
 
 ## Frequently Asked Questions
@@ -180,7 +161,6 @@ To download the application, go to [pgAdmin] (https://www.pgadmin.org/).
 Follow steps 3 through 8 from above.
 
 #### 2. I have made changes to a page, but browser is not displaying the changes.
-
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
 and go to [http://localhost:3000](http://localhost:3000). If that does not fix
