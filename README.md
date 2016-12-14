@@ -122,7 +122,7 @@ starter-kit/
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
-## Database & VM
+## Database on the Virtual Machine
 
 #### PostgreSQL Database
     Host: localhost
