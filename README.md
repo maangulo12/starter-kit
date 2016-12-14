@@ -52,7 +52,6 @@ vagrant up
 vagrant ssh
 ```
 ![Alt text] (docs/img/step5.png "Step 5")
-
 *It may ask you to enter a passphrase and a password.* 
 ```
 Passphrase for key: (just press Enter)
