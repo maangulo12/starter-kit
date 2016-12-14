@@ -8,18 +8,18 @@
 
     Flask extensions included in this application:
     - Flask-Bcrypt     : Used for hashing passwords.
-    - Flask-Migrate    : Used for performing SQLAlchemy database migrations.
+    - Flask-SQLAlchemy : Used for creating database models (using SQLAlchemy).
     - Flask-Restless   : Used for easy RESTful API generation.
     - Flask-Script     : Used for adding support for command-line tasks.
-    - Flask-SQLAlchemy : Used for creating database models (using SQLAlchemy).
+    - Flask-Migrate    : Used for performing SQLAlchemy database migrations.
 """
 
 from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from flask_restless import APIManager
-from flask_migrate import Migrate
 from flask_script import Manager
+from flask_migrate import Migrate
 
 
 # Creating the Flask app
@@ -35,8 +35,8 @@ app.config.from_pyfile('config.py')
 bcrypt   = Bcrypt(app)
 db       = SQLAlchemy(app)
 restless = APIManager(app, flask_sqlalchemy_db=db)
-migrate  = Migrate(app, db)
 manager  = Manager(app)
+migrate  = Migrate(app, db)
 
 # Importing the database models
 from backend import models
