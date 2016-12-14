@@ -12,6 +12,8 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 ## Table of Contents
 * [Getting Started] (#getting-started)
 * [File Structure] (#file-structure)
+* [Database on the Virtual Machine] (#database-on-the-virtual-machine)
+* [Resources for Learning] (#resources-for-learning)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
 ## Getting Started
@@ -127,21 +129,32 @@ starter-kit/
 
 ## Database on the Virtual Machine
 
-#### PostgreSQL Database
+### PostgreSQL Database
     Host:     localhost
     Port:     5432
     Database: app_db
     Username: postgres
     Password: password
 
-#### pgAdmin
+### pgAdmin
 
 pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
 To download the application, go to [pgAdmin] (https://www.pgadmin.org/). 
 
-#### Connecting to PostgreSQL Database using pgAdmin
+### Connecting to PostgreSQL Database using pgAdmin
 
 
+
+## Resources for Learning
+
+### Angular 2
+
++ [Angular 2 Docs] (https://angular.io/docs/ts/latest/)
++ [Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
+
+### Flask
+
++ [Flask Website] (http://flask.pocoo.org/)
 
 ## Frequently Asked Questions
 
@@ -152,10 +165,5 @@ Follow steps 3 through 8 from above.
 
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
-and go to [http://localhost:3000](http://localhost:3000).
-
-#### 3. Firefox is not displaying my changes
-
-## Resources for Learning
-
-[Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
+and go to [http://localhost:3000](http://localhost:3000). If that does not fix
+the issue, try to delete all the browser history. Refresh the page again.
