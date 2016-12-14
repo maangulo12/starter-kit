@@ -44,7 +44,7 @@ cd starter-kit
 vagrant up
 ```
 ![Alt text] (docs/img/step4.png "Step 4")
-*This step may take some time.*
+*This step may take some time. Please be patient.*
 
 #### 5. SSH into the virtual machine:
 >
@@ -91,7 +91,7 @@ starter-kit/
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──docs/                      * contains documentation about the starter-kit
- |   └──all files                (this folder can be deleted after downloading it)
+ |   └──all files                (this folder can be deleted after downloading the starter-kit)
  │
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
