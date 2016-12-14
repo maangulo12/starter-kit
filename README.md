@@ -143,23 +143,23 @@ To download the application, go to [pgAdmin] (https://www.pgadmin.org/).
 
 ### Connecting to PostgreSQL Database using pgAdmin
 
-#### 1. After downloading pgAdmin, open the application and click on "Add New Server."
+1. After downloading pgAdmin, open the application and click on "Add New Server."
 
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
 
-#### 2. Add a name for the server.
+2. Add a name for the server.
 
 ![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
 
-#### 3. Click on the "Connection" tab.
+3. Click on the "Connection" tab.
 
 ![Alt text] (docs/img/pgAdmin3.png "pgAdmin Step 3")
 
-#### 4. Enter all the fields and click "Save."
+4. Enter all the fields and click "Save."
 
 ![Alt text] (docs/img/pgAdmin4.png "pgAdmin Step 4")
 
-#### 5. If the connection is successful, the database will appear on the left side of the screen. 
+5. If the connection is successful, the database will appear on the left side of the screen. 
 
 ![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
 
