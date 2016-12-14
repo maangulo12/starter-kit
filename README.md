@@ -122,9 +122,22 @@ starter-kit/
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
-## Database information
+## Database & VM
 
-PgAdmin stuff
+#### PostgreSQL Database
+    Host: localhost
+    Port: 5432
+    Database: app_db
+    Username: postgres
+    Password: password
+
+#### pgAdmin
+
+pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
+To download the application, go to [pgAdmin] (https://www.pgadmin.org/). 
+
+#### Connecting to PostgreSQL Database using pgAdmin
+
 
 
 ## Frequently Asked Questions
