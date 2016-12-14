@@ -125,6 +125,7 @@ starter-kit/
 
 ## Database information
 
+PgAdmin stuff
 
 
 ## Frequently Asked Questions
@@ -139,3 +140,7 @@ Close the browser. Restart the application. Cancel the gulp command
 and go to [http://localhost:3000](http://localhost:3000).
 
 #### 3. Firefox is not displaying my changes
+
+## Resources for Learning
+
+[Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
