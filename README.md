@@ -12,7 +12,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 ## Table of Contents
 * [Getting Started] (#getting-started)
 * [File Structure] (#file-structure)
-* [Database on the Virtual Machine] (#database-on-the-virtual-machine)
+* [Database] (#database)
 * [Resources for Learning] (#resources-for-learning)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
@@ -127,7 +127,7 @@ starter-kit/
  └──Vagrantfile                * what vagrant uses to configure the virtual machine
 ```
 
-## Database on the Virtual Machine
+## Database
 
 ### PostgreSQL Database
     Host:     localhost
@@ -143,7 +143,25 @@ To download the application, go to [pgAdmin] (https://www.pgadmin.org/).
 
 ### Connecting to PostgreSQL Database using pgAdmin
 
+#### 1. After downloading pgAdmin, open the application and click on "Add New Server."
 
+![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
+
+#### 2. Add a name for the server.
+
+![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
+
+#### 3. Click on the "Connection" tab.
+
+![Alt text] (docs/img/pgAdmin3.png "pgAdmin Step 3")
+
+#### 4. Enter all the fields and click "Save."
+
+![Alt text] (docs/img/pgAdmin4.png "pgAdmin Step 4")
+
+#### 5. If the connection is successful, the database will appear on the left side of the screen. 
+
+![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
 
 ## Resources for Learning
 
@@ -166,4 +184,4 @@ Follow steps 3 through 8 from above.
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
 and go to [http://localhost:3000](http://localhost:3000). If that does not fix
-the issue, try to delete all the browser history. Refresh the page again.
+the issue, try to delete all the browser history and refresh the page again.
