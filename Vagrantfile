@@ -46,8 +46,8 @@ apt-get update
 
 # Install PostgreSQL
 apt-get -y install postgresql postgresql-contrib libpq-dev
-cp /vagrant/vagrant/pg_ident.conf /etc/postgresql/9.3/main/pg_ident.conf
-cp /vagrant/vagrant/pg_hba.conf /etc/postgresql/9.3/main/pg_hba.conf
+cp /vagrant/local/pg_ident.conf /etc/postgresql/9.3/main/pg_ident.conf
+cp /vagrant/local/pg_hba.conf /etc/postgresql/9.3/main/pg_hba.conf
 sed -i -e "s/^#listen_addresses = '.*'/listen_addresses = '*'/" /etc/postgresql/9.3/main/postgresql.conf
 
 # Create database
