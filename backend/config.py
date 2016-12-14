@@ -4,7 +4,7 @@
     backend.config
     ~~~~~~~~~~~~~~
 
-    This module handles the configuration of this application.
+    This module contains the configuration values of this application.
 
     For more information on how to handle configuration:
     - Flask            : http://flask.pocoo.org/docs/0.11/config/
