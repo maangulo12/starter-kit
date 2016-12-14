@@ -75,7 +75,7 @@ gulp
 #### 8. Open [http://localhost:3000](http://localhost:3000):
 ![Alt text] (docs/img/step8.png "Step 8")
 
-### File Structure
+## File Structure
 ```
 starter-kit/
  ├──backend/                   * our backend (server-side) code folder
