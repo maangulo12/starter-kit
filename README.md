@@ -128,7 +128,7 @@ starter-kit/
 pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
 To download the application, go to [pgAdmin] (https://www.pgadmin.org/). 
 
-### Connecting to PostgreSQL Database using pgAdmin
+### Connecting to PostgreSQL Database using pgAdmin:
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
