@@ -126,7 +126,8 @@ starter-kit/
 
 ### pgAdmin
 pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
-To download the application, go to [pgAdmin] (https://www.pgadmin.org/). 
+pgAdmin can be used to view your database, tables, and data. To download pgAdmin, 
+go to this [link] (https://www.pgadmin.org/).
 
 ### Connecting to PostgreSQL Database using pgAdmin:
 
@@ -144,6 +145,34 @@ To download the application, go to [pgAdmin] (https://www.pgadmin.org/).
 
 #### 5. If the connection is successful, the database will appear on the left side of the screen.
 ![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
+
+### Setting up the Database
+In this project, we use a script called **manage.py** to automate the process of setting up 
+the database. Here is how to use it:
+
+#### Creating the tables from your models
+After implementing all the models, use this command to create the tables in the database 
+(Make sure you are inside the vagrant folder in the virtual machine).
+>
+```bash
+python3 manage.py create
+```
+![Alt text] (docs/img/db1.png "Creating DB Tables")
+
+You can also view the new tables created in pgAdmin.
+![Alt text] (docs/img/pgadmin_db1.png "pgAdmin Creating DB Tables")
+
+#### Dropping the tables from the database
+Use this command to drop all the tables from the database 
+(Make sure you are inside the vagrant folder in the virtual machine).
+>
+```bash
+python3 manage.py drop
+```
+![Alt text] (docs/img/db2.png "Dropping DB Tables")
+
+You can also check if the tables were dropped in pgAdmin.
+![Alt text] (docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
 
 ## Resources for Learning
 
