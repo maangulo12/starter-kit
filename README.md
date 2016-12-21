@@ -159,7 +159,6 @@ Make sure you are inside the vagrant folder in the virtual machine.
 python3 manage.py create
 ```
 ![Alt text] (docs/img/db1.png "Creating DB Tables")
-
 You can also view the new tables created in pgAdmin.
 ![Alt text] (docs/img/pgadmin_db1.png "pgAdmin Creating DB Tables")
 
@@ -171,7 +170,6 @@ Make sure you are inside the vagrant folder in the virtual machine.
 python3 manage.py drop
 ```
 ![Alt text] (docs/img/db2.png "Dropping DB Tables")
-
 You can also check if the tables were dropped in pgAdmin.
 ![Alt text] (docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
 
