@@ -146,7 +146,7 @@ go to this [link] (https://www.pgadmin.org/).
 #### 5. If the connection is successful, the database will appear on the left side of the screen.
 ![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
 
-#### Setting up the Database
+## Setting up the Database
 In this project, we use a script called **manage.py** to automate the process of setting up 
 the database. This script can be used to automatically create the tables in the database from 
 the python models. Here is how to use it:
