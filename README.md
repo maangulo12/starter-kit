@@ -143,9 +143,7 @@ go to this [link](https://www.pgadmin.org/).
 ### Connecting to PostgreSQL Database using pgAdmin
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
-```
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
-```
 
 #### 2. Add a name for the server.
 ![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
