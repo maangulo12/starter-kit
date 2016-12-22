@@ -86,38 +86,47 @@ starter-kit/
  |   ├──models.py              * our database models
  │   ├──view.py                * our app views
  │   │
- │   └──api/                   * our api folder
- │       └──v1/                * our api v1 folder
- |           ├──__init__.py    * our api v1 package module
- │           └──endpoints.py   * implements the first api endpoints 
+ │   └──api/                   * our API folder
+ │       └──v1/                * our API v1 folder
+ |           ├──__init__.py    * our API v1 package module
+ │           └──endpoints.py   * implements the first API endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──docs/                      * contains documentation about the starter-kit
- |   └──all files                (this folder can be deleted after downloading the starter-kit)
+ |   └──all files                (this folder may be deleted after downloading the starter-kit)
  │
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──this needs work!
  │
  ├──local/                     * our local config folder
- │   ├──pg_hba.conf            * config file used by vagrant for authentication to the local database 
- │   └──pg_ident.conf          * config file used by vagrant for authentication to the local database
+ │   ├──pg_hba.conf            * config file used by Vagrant for authenticating to the local database
+ │   └──pg_ident.conf          * config file used by Vagrant for authenticating to the local database
  |
  ├──.gitignore                 * specifies files that git should ignore
- ├──app.json                   * specifies information required to run this app on Heroku
- ├──gulpfile.js                * our build system config file for automating tasks
+ ├──app.json                   * specifies information required to run the app on Heroku
+ ├──gulpfile.js                * our build system file for automating tasks
  ├──manage.py                  * our python script for performing commands
- ├──package.json               * specifies our node dependencies
+ ├──package.json               * specifies our Node dependencies
  ├──Procfile                   * what Heroku uses to deploy the app
  ├──README.md                  * this README file 
- ├──requirements.txt           * specifies our python dependencies
- ├──runtime.txt                * specifies our python runtime version
+ ├──requirements.txt           * specifies our Python dependencies
+ ├──runtime.txt                * specifies our Python runtime version
  ├──server.py                  * our python server script 
- ├──tsconfig.json              * specifies options for the typescript compiler  
- ├──typings.json               * specifies packages needed by the typescript compiler
- └──Vagrantfile                * what vagrant uses to configure the virtual machine
+ ├──tsconfig.json              * specifies options for the TypeScript compiler  
+ ├──typings.json               * specifies packages needed by the TypeScript compiler
+ └──Vagrantfile                * what Vagrant uses to configure the virtual machine
 ```
 
 ## Database
+
+We use **PostgreSQL** as the database engine/server for this application.
+PostgreSQL is an *object-relational database* that enables us to store data 
+securely and retrieve data using the relational database model. For more information
+about PostgreSQL, go to this [link](https://en.wikipedia.org/wiki/PostgreSQL).
+
+In this project, the PostgreSQL database is installed inside the virtual machine
+(thanks to Vagrant). The database can be viewed through a client application 
+using the crendentials below.
 
 ### PostgreSQL Database
     Host:     localhost
@@ -127,9 +136,9 @@ starter-kit/
     Password: password
 
 ### pgAdmin
-pgAdmin is a free to use, open-source management and administration tool for PostgreSQL.
-pgAdmin can be used to view your database, tables, and data. To download pgAdmin, 
-go to this [link] (https://www.pgadmin.org/).
+pgAdmin is a free to use, open-source management, and administration client for PostgreSQL.
+pgAdmin can be used to manage and view your database, tables, and data. To download pgAdmin, 
+go to this [link](https://www.pgadmin.org/).
 
 ### Connecting to PostgreSQL Database using pgAdmin:
 
@@ -150,11 +159,11 @@ go to this [link] (https://www.pgadmin.org/).
 
 ## Setting up the Database
 In this project, we use a script called **manage.py** to automate the process of setting up 
-the database. This script can be used to automatically create the tables in the database from 
-the python models. Here is how to use it:
+the database. This script is used to automatically create the tables in the database from 
+the Python models. Here is how to use it:
 
 #### Creating the tables from the models
-After implementing all the models, use this command to create the tables in the database. 
+After implementing all the Python models, use this command to create the tables in the database. 
 Make sure you are inside the vagrant folder in the virtual machine.
 >
 ```bash
