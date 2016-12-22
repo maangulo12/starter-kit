@@ -143,7 +143,9 @@ go to this [link](https://www.pgadmin.org/).
 ### Connecting to PostgreSQL Database using pgAdmin
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
+```
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
+```
 
 #### 2. Add a name for the server.
 ![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
@@ -160,7 +162,7 @@ go to this [link](https://www.pgadmin.org/).
 ## Setting up the Database
 In this project, we use a script called **manage.py** to automate the process of setting up 
 the database. This script is used to automatically create the tables in the database from 
-the Python models. Here is how to use it:
+the Python models. Here is how you can use it.
 
 ### Creating the tables from the Python models
 After implementing all the Python models, use this command to create the tables in the database. 
