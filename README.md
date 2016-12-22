@@ -140,7 +140,7 @@ pgAdmin is a free to use, open-source management, and administration client for 
 pgAdmin can be used to manage and view your database, tables, and data. To download pgAdmin, 
 go to this [link](https://www.pgadmin.org/).
 
-### Connecting to PostgreSQL Database using pgAdmin:
+### Connecting to PostgreSQL Database using pgAdmin
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
 ![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
@@ -162,7 +162,7 @@ In this project, we use a script called **manage.py** to automate the process of
 the database. This script is used to automatically create the tables in the database from 
 the Python models. Here is how to use it:
 
-#### Creating the tables from the models
+### Creating the tables from the Python models
 After implementing all the Python models, use this command to create the tables in the database. 
 Make sure you are inside the vagrant folder in the virtual machine.
 >
@@ -170,10 +170,10 @@ Make sure you are inside the vagrant folder in the virtual machine.
 python3 manage.py create
 ```
 ![Alt text] (docs/img/db1.png "Creating DB Tables")
-*You can also view the new tables created in pgAdmin.*
+*You can view the new tables created in pgAdmin.*
 ![Alt text] (docs/img/pgadmin_db1.png "pgAdmin Creating DB Tables")
 
-#### Dropping the tables from the database
+### Dropping the tables from the database
 Use this command to drop all the tables from the database. 
 Make sure you are inside the vagrant folder in the virtual machine.
 >
@@ -181,7 +181,7 @@ Make sure you are inside the vagrant folder in the virtual machine.
 python3 manage.py drop
 ```
 ![Alt text] (docs/img/db2.png "Dropping DB Tables")
-*You can also check if the tables were dropped in pgAdmin.*
+*You can check if the tables were dropped in pgAdmin.*
 ![Alt text] (docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
 
 ## Deployment
