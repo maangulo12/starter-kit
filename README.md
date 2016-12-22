@@ -14,6 +14,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 * [File Structure] (#file-structure)
 * [Database] (#database)
 * [Setting Up the Database] (#setting-up-the-database)
+* [Deployment] (#deployment)
 * [Resources for Learning] (#resources-for-learning)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
@@ -173,6 +174,10 @@ python3 manage.py drop
 ![Alt text] (docs/img/db2.png "Dropping DB Tables")
 *You can also check if the tables were dropped in pgAdmin.*
 ![Alt text] (docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
+
+## Deployment
+
+
 
 ## Resources for Learning
 
