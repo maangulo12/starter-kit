@@ -12,7 +12,11 @@ from flask import render_template
 from backend import app
 
 
-@app.route('/')
-def index():
-    """This is the first view of this application."""
+@app.route('/', defaults={'path': ''})
+@app.route('/<path>')
+def index(path):
+    """
+    This is the only view that the backend needs to serve.
+    Single-page applications only serve one page.
+    """
     return render_template('index.html')
