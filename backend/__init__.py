@@ -24,7 +24,7 @@ from flask_migrate import Migrate
 
 # Creating the Flask app
 app = Flask(__name__,
-            template_folder='../frontend/www',
+            template_folder='../frontend',
             static_url_path='',
             static_folder='../')
 

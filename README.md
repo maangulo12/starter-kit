@@ -106,13 +106,13 @@ starter-kit/
  ├──.gitignore                 * specifies files that git should ignore
  ├──app.json                   * specifies information required to run the app on Heroku
  ├──gulpfile.js                * our build system file for automating tasks
- ├──manage.py                  * our python script for performing commands
+ ├──manage.py                  * our Python script for performing commands
  ├──package.json               * specifies our Node dependencies
  ├──Procfile                   * what Heroku uses to deploy the app
- ├──README.md                  * this README file 
+ ├──README.md                  * README file 
  ├──requirements.txt           * specifies our Python dependencies
  ├──runtime.txt                * specifies our Python runtime version
- ├──server.py                  * our python server script 
+ ├──server.py                  * our Python script for running the app
  ├──tsconfig.json              * specifies options for the TypeScript compiler  
  ├──typings.json               * specifies packages needed by the TypeScript compiler
  └──Vagrantfile                * what Vagrant uses to configure the virtual machine
@@ -204,6 +204,10 @@ Heroku
 + [Flask-Script Docs] (https://flask-script.readthedocs.io/en/latest/)
 + [Flask-Migrate Docs] (https://flask-migrate.readthedocs.io/en/latest/)
 + [Flask-Bcrypt Docs] (https://flask-bcrypt.readthedocs.io/en/latest/)
+
+### Bootstrap
+
++ [Bootstrap Website] (http://getbootstrap.com/)
 
 ## Additional Helpful Tools
 
