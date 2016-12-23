@@ -198,12 +198,12 @@ Heroku
 
 ### Flask
 + [Flask Website] (http://flask.pocoo.org/)
-+ [Flask-Bcrypt Docs] (https://flask-bcrypt.readthedocs.io/en/latest/)
 + [Flask-SQLAlchemy Docs] (http://flask-sqlalchemy.pocoo.org/2.1/)
 + [SQLAlchemy Docs] (http://www.sqlalchemy.org/)
 + [Flask-Restless Docs] (https://flask-restless.readthedocs.io/en/stable/)
 + [Flask-Script Docs] (https://flask-script.readthedocs.io/en/latest/)
 + [Flask-Migrate Docs] (https://flask-migrate.readthedocs.io/en/latest/)
++ [Flask-Bcrypt Docs] (https://flask-bcrypt.readthedocs.io/en/latest/)
 
 ## Additional Helpful Tools
 
