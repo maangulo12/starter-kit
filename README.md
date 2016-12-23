@@ -16,6 +16,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 * [Setting Up the Database] (#setting-up-the-database)
 * [Deployment] (#deployment)
 * [Resources for Learning] (#resources-for-learning)
+* [Additional Helpful Tools] (#additional-helpful-tools)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
 ## Getting Started
