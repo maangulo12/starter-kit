@@ -186,13 +186,14 @@ python3 manage.py drop
 
 ## Deployment
 
-
+Heroku
 
 ## Resources for Learning
 
 ### Angular 2
 + [Angular 2 Docs] (https://angular.io/docs/ts/latest/)
 + [Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
++ [Angular 2 Style Guide] (https://angular.io/styleguide)
 
 ### Flask
 + [Flask Website] (http://flask.pocoo.org/)
@@ -202,6 +203,12 @@ python3 manage.py drop
 + [Flask-Restless Docs] (https://flask-restless.readthedocs.io/en/stable/)
 + [Flask-Script Docs] (https://flask-script.readthedocs.io/en/latest/)
 + [Flask-Migrate Docs] (https://flask-migrate.readthedocs.io/en/latest/)
+
+## Additional Helpful Tools
+
++ [Visual Studio Code] (https://code.visualstudio.com/)
++ [Cmder for Windows] (http://cmder.net/)
++ [GitHub Desktop for Windows] (https://desktop.github.com/)
 
 ## Frequently Asked Questions
 
