@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var LoginComponent = (function () {
-    function LoginComponent() {
-        this.name = 'LoginComponent';
+var HomeComponent = (function () {
+    function HomeComponent() {
+        this.name = 'HomeComponent';
     }
-    LoginComponent = __decorate([
+    HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'login-cmp',
-            templateUrl: 'login.html'
+            selector: 'home-cmp',
+            templateUrl: 'home.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], LoginComponent);
-    return LoginComponent;
+    ], HomeComponent);
+    return HomeComponent;
 }());
-exports.LoginComponent = LoginComponent;
+exports.HomeComponent = HomeComponent;
