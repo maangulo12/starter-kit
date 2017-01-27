@@ -86,8 +86,8 @@ applications on the cloud. The project consists of the following
 stack:
 
 + **PostgreSQL** as the database engine for storing the data.
-+ **Python** as the server-side language using the **Flask** web framework for building the RESTful API.
-+ **Angular 2** as the client-side web framework for creating the client application that runs in the web browser.
++ **Python** as the server-side language and **Flask** as the framework for building the RESTful API.
++ **Angular 2** as the client-side framework for creating the client application that runs in the web browser.
 + **Heroku** as the platform/service for deploying the application on the cloud.
 
 ![Alt text] (docs/img/drawing-stack.png "Stack")
