@@ -113,7 +113,7 @@ Notice that the application will run inside the virtual machine, and not your lo
 of how Vagrant and VirtualBox work together is illustrated below.
 
 <p align="center">
-    <img alt="Vagrant" src="docs/img/vagrant-vm.png"></img>  
+    <img alt="Vagrant" src="docs/img/vagrant-virtualbox.png"></img>  
 </p>
 
 For more information about Vagrant, go to this [link](https://www.vagrantup.com/docs/why-vagrant/).
