@@ -112,7 +112,9 @@ will install dependencies inside the virtual machine in order to run the applica
 Notice that the application will run inside the virtual machine, and not your local computer. A picture
 of how Vagrant and VirtualBox work is illustrated below.
 
-![Alt text] (docs/img/vagrant.png "Vagrant")
+<p align="center">
+    <img alt="Vagrant" src="docs/img/vagrant.png"></img>  
+</p>
 
 For more information about Vagrant, go to this [link](https://www.vagrantup.com/docs/why-vagrant/).
 
