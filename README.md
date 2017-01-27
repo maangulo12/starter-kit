@@ -81,8 +81,8 @@ gulp
 
 ## Overview
 
-This project aims to provide a starting template for building single-page
-applications on the cloud. The project consists of the following
+The Starter-Kit aims to provide a starting template with all the tools necessary for 
+building single-page applications on the cloud. The project consists of the following
 stack:
 
 + **PostgreSQL** as the database engine for storing the data.
