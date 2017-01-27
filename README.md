@@ -106,11 +106,11 @@ These dependencies include:
 *Download these if you have not already download them.*
 
 You will need to install these dependencies so that the Starter-Kit works accordingly. The Starter-Kit
-uses both Vagrant and VirtualBox to setup and configure a virtual machine that will allow you to run 
-the application inside the virtual machine. This virtual machine is configured using a Vagrantfile that 
+uses both **Vagrant** and **VirtualBox** to setup and configure a virtual machine that will allow you to run 
+the application inside the virtual machine. This virtual machine is configured using a *Vagrantfile* that 
 will install dependencies inside the virtual machine in order to run the application.
 Notice that the application will run inside the virtual machine, and not your local computer. A picture
-of how Vagrant and VirtualBox work is illustrated below.
+of how Vagrant and VirtualBox work together is illustrated below.
 
 <p align="center">
     <img alt="Vagrant" src="docs/img/vagrant-vm.png"></img>  
