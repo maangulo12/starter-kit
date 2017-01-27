@@ -12,6 +12,7 @@ This is a concise skeleton for building single-page web apps with [PostgreSQL] (
 ## Table of Contents
 * [Quickstart] (#quickstart)
 * [Overview] (#overview)
+* [Dependencies] (#dependencies)
 * [File Structure] (#file-structure)
 * [Database] (#database)
 * [Setting Up the Database] (#setting-up-the-database)
@@ -88,9 +89,34 @@ stack:
 + **PostgreSQL** as the database engine for storing the data.
 + **Python** as the server-side language and **Flask** as the framework for building the RESTful API.
 + **Angular 2** as the client-side framework for creating the client application that runs in the web browser.
-+ **Heroku** as the platform/service for deploying the application on the cloud.
++ **Heroku** as the platform/service for deploying the application to the cloud.
 
 ![Alt text] (docs/img/drawing-stack.png "Stack")
+
+## Dependencies 
+
+Before getting started with the Starter-Kit, a few dependencies need to be installed first.
+These dependencies include:
+
++ [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
++ [git] (https://git-scm.com/downloads) (required)
++ [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
++ [Vagrant] (https://www.vagrantup.com/downloads.html) (required)
+
+*Download these if you have not already download them*
+
+You will need to install these dependencies so that the Starter-Kit works accordingly. The Starter-Kit
+uses both Vagrant and VirtualBox to setup and configure a virtual machine that will allow you to run 
+the application inside the virtual machine. This virtual machine is configured using a Vagrantfile that 
+will install dependencies inside the virtual machine in order to run the application.
+Notice that the application will run inside the virtual machine, and not your local computer. A picture
+of how Vagrant and VirtualBox work is illustrated below.
+
+![Alt text] (docs/img/vagrant.png "Vagrant")
+
+For more information about Vagrant, go to this [link](https://www.vagrantup.com/docs/why-vagrant/).
+
+
 
 ## File Structure
 ```
