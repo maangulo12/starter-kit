@@ -118,8 +118,6 @@ of how Vagrant and VirtualBox work is illustrated below.
 
 For more information about Vagrant, go to this [link](https://www.vagrantup.com/docs/why-vagrant/).
 
-
-
 ## File Structure
 ```
 starter-kit/
