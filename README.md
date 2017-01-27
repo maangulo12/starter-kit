@@ -103,7 +103,7 @@ These dependencies include:
 + [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
 + [Vagrant] (https://www.vagrantup.com/downloads.html) (required)
 
-*Download these if you have not already download them*
+*Download these if you have not already download them.*
 
 You will need to install these dependencies so that the Starter-Kit works accordingly. The Starter-Kit
 uses both Vagrant and VirtualBox to setup and configure a virtual machine that will allow you to run 
@@ -113,7 +113,7 @@ Notice that the application will run inside the virtual machine, and not your lo
 of how Vagrant and VirtualBox work is illustrated below.
 
 <p align="center">
-    <img alt="Vagrant" src="docs/img/vagrant.png"></img>  
+    <img alt="Vagrant" src="docs/img/vagrant-vm.png"></img>  
 </p>
 
 For more information about Vagrant, go to this [link](https://www.vagrantup.com/docs/why-vagrant/).
