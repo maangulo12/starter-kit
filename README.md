@@ -110,7 +110,7 @@ uses both **Vagrant** and **VirtualBox** to setup and configure a virtual machin
 the application inside the virtual machine. This virtual machine is configured using a *Vagrantfile* that 
 will install dependencies inside the virtual machine in order to run the application.
 Notice that the application will run inside the virtual machine, and not your local computer. Vagrant
-will also install PostgreSQL and will setup the database for your application. A picture
+will also install **PostgreSQL** and will setup the database for your application. A picture
 of how Vagrant and VirtualBox work together is illustrated below.
 
 <p align="center">
