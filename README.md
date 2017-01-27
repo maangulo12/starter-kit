@@ -1,7 +1,7 @@
 # Starter-Kit
 
 This is a concise skeleton for building single-page web apps with [PostgreSQL] (https://www.postgresql.org/), 
-Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), and [Heroku] (https://www.heroku.com/).
+[Flask] (http://flask.pocoo.org/), [Angular 2] (https://angular.io/), and [Heroku] (https://www.heroku.com/).
 
 <p align="center">
   <a href="" target="_blank">
@@ -10,7 +10,8 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 </p>
 
 ## Table of Contents
-* [Getting Started] (#getting-started)
+* [Quickstart] (#quickstart)
+* [Overview] (#overview)
 * [File Structure] (#file-structure)
 * [Database] (#database)
 * [Setting Up the Database] (#setting-up-the-database)
@@ -19,7 +20,7 @@ Python ([Flask] (http://flask.pocoo.org/)), [Angular 2] (https://angular.io/), a
 * [Additional Helpful Tools] (#additional-helpful-tools)
 * [Frequently Asked Questions] (#frequently-asked-questions)
 
-## Getting Started
+## Quickstart
 
 #### 1. Download and install the following software:
 + [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
@@ -77,6 +78,19 @@ gulp
 
 #### 8. Open [http://localhost:3000](http://localhost:3000):
 ![Alt text] (docs/img/step8.png "Step 8")
+
+## Overview
+
+This project aims to provide a starting template for building single-page
+applications on the cloud. The project consists of the following
+stack:
+
++ PostgreSQL as the database engine for storing the data.
++ Python as the server-side language using the Flask web framework for building the RESTful API.
++ Angular 2 as the client-side web framework for creating the client application.
++ Heroku as the platform/service for deploying the application on the cloud.
+
+![Alt text] (docs/img/drawing-stack.png "Stack")
 
 ## File Structure
 ```
