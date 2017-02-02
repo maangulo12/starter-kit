@@ -138,7 +138,10 @@ starter-kit/
  |   └──all files                (this folder may be deleted after downloading the starter-kit)
  │
  ├──frontend/                  * our frontend (client-side) code folder
- |   ├──this needs work!
+ |   ├──app/                   * our Angular 2 app folder (all the app components go in here)
+ |   ├──assets/                * our assets folder (contains all CSS, images, and JavaScript files)
+ |   ├──build/                 * our build folder (contains all the compiled files)
+ |   ├──index.html             * our index (initial) page
  │
  ├──local/                     * our local config folder
  │   ├──pg_hba.conf            * config file used by Vagrant for authenticating to the local database
