@@ -142,6 +142,7 @@ starter-kit/
  |   ├──assets/                * our assets folder (contains all CSS, images, and JavaScript files)
  |   ├──build/                 * our build folder (contains all the compiled files)
  |   ├──index.html             * our index (initial) page
+ │   └──systemjs.config.js     * our SystemJS config file
  │
  ├──local/                     * our local config folder
  │   ├──pg_hba.conf            * config file used by Vagrant for authenticating to the local database
