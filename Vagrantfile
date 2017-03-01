@@ -67,7 +67,8 @@ pip3 install -r /vagrant/requirements.txt
 # Install NodeJS packages
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 apt-get install -y nodejs build-essential
-npm install -g npm gulp
+npm install -g gulp
+npm install --no-bin-links gulp
 cd /vagrant/
 npm install --no-bin-links
 npm rebuild node-sass --no-bin-links
