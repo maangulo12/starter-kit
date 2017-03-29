@@ -1,7 +1,7 @@
 # Starter-Kit
 
-This is a concise skeleton for building single-page web apps with [PostgreSQL] (https://www.postgresql.org/), 
-[Flask] (http://flask.pocoo.org/), [Angular 2] (https://angular.io/), and [Heroku] (https://www.heroku.com/).
+This is a concise skeleton for building single-page web apps with [PostgreSQL](https://www.postgresql.org/), 
+[Flask](http://flask.pocoo.org/), [Angular 2](https://angular.io/), and [Heroku](https://www.heroku.com/).
 
 <p align="center">
   <a href="" target="_blank">
@@ -10,45 +10,45 @@ This is a concise skeleton for building single-page web apps with [PostgreSQL] (
 </p>
 
 ## Table of Contents
-* [Quickstart] (#quickstart)
-* [Overview] (#overview)
-* [Dependencies] (#dependencies)
-* [File Structure] (#file-structure)
-* [Database] (#database)
-* [Setting Up the Database] (#setting-up-the-database)
-* [Deployment] (#deployment)
-* [Resources for Learning] (#resources-for-learning)
-* [Additional Helpful Tools] (#additional-helpful-tools)
-* [Frequently Asked Questions] (#frequently-asked-questions)
+* [Quickstart](#quickstart)
+* [Overview](#overview)
+* [Dependencies](#dependencies)
+* [File Structure](#file-structure)
+* [Database](#database)
+* [Setting Up the Database](#setting-up-the-database)
+* [Deployment](#deployment)
+* [Resources for Learning](#resources-for-learning)
+* [Additional Helpful Tools](#additional-helpful-tools)
+* [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Quickstart
 
 #### 1. Download and install the following software:
-+ [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
-+ [git] (https://git-scm.com/downloads) (required)
-+ [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
-+ [Vagrant] (https://www.vagrantup.com/downloads.html) (required)
++ [OpenSSH](https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
++ [git](https://git-scm.com/downloads) (required)
++ [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (required)
++ [Vagrant](https://www.vagrantup.com/downloads.html) (required)
 
 #### 2. Open the command line (terminal) and type the following command:
 >
 ```bash
 git clone https://github.com/maangulo12/starter-kit.git
 ```
-![Alt text] (docs/img/step2.png "Step 2")
+![Alt text](docs/img/step2.png "Step 2")
 
 #### 3. Change directory into the downloaded project:
 >
 ```bash
 cd starter-kit
 ```
-![Alt text] (docs/img/step3.png "Step 3")
+![Alt text](docs/img/step3.png "Step 3")
 
 #### 4. Run vagrant to setup the development environment:
 >
 ```bash
 vagrant up
 ```
-![Alt text] (docs/img/step4.png "Step 4")
+![Alt text](docs/img/step4.png "Step 4")
 *This step may take some time. Please be patient.*
 
 #### 5. SSH into the virtual machine:
@@ -56,7 +56,7 @@ vagrant up
 ```bash
 vagrant ssh
 ```
-![Alt text] (docs/img/step5.png "Step 5")
+![Alt text](docs/img/step5.png "Step 5")
 *It may ask you to enter a passphrase and a password.* 
 ```
 Passphrase for key: (just press Enter)
@@ -68,17 +68,17 @@ Password: vagrant
 ```bash
 cd /vagrant/
 ```
-![Alt text] (docs/img/step6.png "Step 6")
+![Alt text](docs/img/step6.png "Step 6")
 
 #### 7. Run the task runner to run the application:
 >
 ```bash
 gulp
 ```
-![Alt text] (docs/img/step7.png "Step 7")
+![Alt text](docs/img/step7.png "Step 7")
 
 #### 8. Open [http://localhost:3000](http://localhost:3000):
-![Alt text] (docs/img/step8.png "Step 8")
+![Alt text](docs/img/step8.png "Step 8")
 
 ## Overview
 
@@ -91,17 +91,17 @@ stack:
 + **Angular 2** as the client-side framework for creating the client application that runs in the web browser.
 + **Heroku** as the platform/service for deploying the application to the cloud.
 
-![Alt text] (docs/img/drawing-stack.png "Stack")
+![Alt text](docs/img/drawing-stack.png "Stack")
 
 ## Dependencies 
 
 Before getting started with the Starter-Kit, a few dependencies need to be installed first.
 These dependencies include:
 
-+ [OpenSSH] (https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
-+ [git] (https://git-scm.com/downloads) (required)
-+ [VirtualBox] (https://www.virtualbox.org/wiki/Downloads) (required)
-+ [Vagrant] (https://www.vagrantup.com/downloads.html) (required)
++ [OpenSSH](https://sourceforge.net/projects/sshwindows/?source=typ_redirect) (required - for Windows users only)
++ [git](https://git-scm.com/downloads) (required)
++ [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (required)
++ [Vagrant](https://www.vagrantup.com/downloads.html) (required)
 
 *Download these if you have not already download them.*
 
@@ -189,19 +189,19 @@ go to this [link](https://www.pgadmin.org/).
 ### Connecting to PostgreSQL Database using pgAdmin
 
 #### 1. After downloading pgAdmin, open the application and click on "Add New Server."
-![Alt text] (docs/img/pgAdmin1.png "pgAdmin Step 1")
+![Alt text](docs/img/pgAdmin1.png "pgAdmin Step 1")
 
 #### 2. Add a name for the server.
-![Alt text] (docs/img/pgAdmin2.png "pgAdmin Step 2")
+![Alt text](docs/img/pgAdmin2.png "pgAdmin Step 2")
 
 #### 3. Click on the "Connection" tab.
-![Alt text] (docs/img/pgAdmin3.png "pgAdmin Step 3")
+![Alt text](docs/img/pgAdmin3.png "pgAdmin Step 3")
 
 #### 4. Enter all the fields and click "Save."
-![Alt text] (docs/img/pgAdmin4.png "pgAdmin Step 4")
+![Alt text](docs/img/pgAdmin4.png "pgAdmin Step 4")
 
 #### 5. If the connection is successful, the database will appear on the left side of the screen.
-![Alt text] (docs/img/pgAdmin5.png "pgAdmin Step 5")
+![Alt text](docs/img/pgAdmin5.png "pgAdmin Step 5")
 
 ## Setting up the Database
 In this project, we use a script called **manage.py** to automate the process of setting up 
@@ -215,9 +215,9 @@ Make sure you are inside the vagrant folder in the virtual machine.
 ```bash
 python3 manage.py create
 ```
-![Alt text] (docs/img/db1.png "Creating DB Tables")
+![Alt text](docs/img/db1.png "Creating DB Tables")
 *You can view the new tables created in pgAdmin.*
-![Alt text] (docs/img/pgadmin_db1.png "pgAdmin Creating DB Tables")
+![Alt text](docs/img/pgadmin_db1.png "pgAdmin Creating DB Tables")
 
 ### Dropping the tables from the database
 Use this command to drop all the tables from the database. 
@@ -226,9 +226,9 @@ Make sure you are inside the vagrant folder in the virtual machine.
 ```bash
 python3 manage.py drop
 ```
-![Alt text] (docs/img/db2.png "Dropping DB Tables")
+![Alt text](docs/img/db2.png "Dropping DB Tables")
 *You can check if the tables were dropped in pgAdmin.*
-![Alt text] (docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
+![Alt text](docs/img/pgadmin_db2.png "pgAdmin Dropping DB Tables")
 
 ## Deployment
 
@@ -237,29 +237,29 @@ Heroku
 ## Resources for Learning
 
 ### Angular 2
-+ [Angular 2 Docs] (https://angular.io/docs/ts/latest/)
-+ [Angular 2 in 60 Minutes] (https://www.youtube.com/watch?v=-zW1zHqsdyc)
-+ [Angular 2 Style Guide] (https://angular.io/styleguide)
++ [Angular 2 Docs](https://angular.io/docs/ts/latest/)
++ [Angular 2 in 60 Minutes](https://www.youtube.com/watch?v=-zW1zHqsdyc)
++ [Angular 2 Style Guide](https://angular.io/styleguide)
 
 ### Flask
-+ [Flask Website] (http://flask.pocoo.org/)
-+ [Flask-SQLAlchemy Docs] (http://flask-sqlalchemy.pocoo.org/2.1/)
-+ [SQLAlchemy Docs] (http://www.sqlalchemy.org/)
-+ [Flask-Restless Docs] (https://flask-restless.readthedocs.io/en/stable/)
-+ [Flask-Script Docs] (https://flask-script.readthedocs.io/en/latest/)
-+ [Flask-Migrate Docs] (https://flask-migrate.readthedocs.io/en/latest/)
-+ [Flask-Bcrypt Docs] (https://flask-bcrypt.readthedocs.io/en/latest/)
++ [Flask Website](http://flask.pocoo.org/)
++ [Flask-SQLAlchemy Docs](http://flask-sqlalchemy.pocoo.org/2.1/)
++ [SQLAlchemy Docs](http://www.sqlalchemy.org/)
++ [Flask-Restless Docs](https://flask-restless.readthedocs.io/en/stable/)
++ [Flask-Script Docs](https://flask-script.readthedocs.io/en/latest/)
++ [Flask-Migrate Docs](https://flask-migrate.readthedocs.io/en/latest/)
++ [Flask-Bcrypt Docs](https://flask-bcrypt.readthedocs.io/en/latest/)
 
 ### Bootstrap
 
-+ [Bootstrap Website] (http://getbootstrap.com/)
-+ [Bootstrap Themes] (https://bootswatch.com/)
++ [Bootstrap Website](http://getbootstrap.com/)
++ [Bootstrap Themes](https://bootswatch.com/)
 
 ## Additional Helpful Tools
 
-+ [Visual Studio Code] (https://code.visualstudio.com/)
-+ [Cmder for Windows] (http://cmder.net/)
-+ [GitHub Desktop for Windows] (https://desktop.github.com/)
++ [Visual Studio Code](https://code.visualstudio.com/)
++ [Cmder for Windows](http://cmder.net/)
++ [GitHub Desktop for Windows](https://desktop.github.com/)
 
 ## Frequently Asked Questions
 
