@@ -73,4 +73,8 @@ cd /vagrant/
 npm install --no-bin-links
 npm rebuild node-sass --no-bin-links
 
+# Create database tables
+cd /vagrant/
+python3 manage.py create
+
 CONTENTS
