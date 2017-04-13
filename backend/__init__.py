@@ -41,5 +41,8 @@ migrate  = Migrate(app, db)
 # Importing the database models
 from backend import models
 
+# Importing REST API endpoints
+from backend.api.v1 import endpoints
+
 # Importing the app views
 from backend import views
