@@ -22,7 +22,10 @@ Vagrant.configure(2) do |config|
   config.vm.hostname = $environ
   # Use VirtualBox as the provider for this VM
   config.vm.provider :virtualbox do |v|
+    # Set the name of this VM in VirtualBox
     v.name = $environ
+    # Set the memory to 1024 MB
+    v.memory = 1024
   end
   # Provision this VM using this shell script
   config.vm.provision :shell, inline: $shell
