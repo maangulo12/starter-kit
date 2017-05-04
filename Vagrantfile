@@ -76,6 +76,16 @@ cd /vagrant/
 npm install --no-bin-links
 npm rebuild node-sass --no-bin-links
 
+# Install Git
+apt-get update
+apt-get install git
+
+# Install Heroku CLI
+add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+apt-get update
+apt-get install heroku
+
 # Create database tables
 cd /vagrant/
 python3 manage.py create
