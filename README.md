@@ -231,7 +231,31 @@ python3 manage.py drop
 
 ## Deployment
 
-Heroku
+To deploy the app on Heroku, first create an account on [Heroku](https://www.heroku.com/).
+
+![Alt text](docs/img/heroku_1.png "Heroku Setup Step 1")
+
+After creating the account, open the command-line and type the following 
+and make sure you are inside the virtual machine.
+>
+```bash
+heroku login
+```
+![Alt text](docs/img/heroku_2.png "Heroku Setup Step 2")
+
+After login into Heroku via the command line, type the following command.
+>
+```bash
+heroku create
+```
+![Alt text](docs/img/heroku_3.png "Heroku Setup Step 3")
+
+After creating the app, type the following command.
+>
+```bash
+git push heroku master 
+```
+![Alt text](docs/img/heroku_4.png "Heroku Setup Step 4")
 
 ## Resources for Learning
 
@@ -250,12 +274,14 @@ Heroku
 + [Flask-Bcrypt Docs](https://flask-bcrypt.readthedocs.io/en/latest/)
 
 ### Bootstrap
-
 + [Bootstrap Website](http://getbootstrap.com/)
 + [Bootstrap Themes](https://bootswatch.com/)
 
-## Additional Helpful Tools
+### Heroku
++ [Heroku](https://heroku.com)
++ [Getting Started On Heroku With Python](https://devcenter.heroku.com/articles/getting-started-with-python#introduction)
 
+## Additional Helpful Tools
 + [Visual Studio Code](https://code.visualstudio.com/)
 + [Cmder for Windows](http://cmder.net/)
 + [GitHub Desktop for Windows](https://desktop.github.com/)
