@@ -130,11 +130,12 @@ starter-kit/
  │   └──api/                   * our API folder
  │       └──v1/                * our API v1 folder
  |           ├──__init__.py    * our API v1 package module
- │           └──endpoints.py   * implements the first API endpoints 
+ |           ├──auth.py        * implements the API v1 endpoint for authentication
+ │           └──endpoints.py   * implements the API v1 endpoints 
  │                               (this module can be broken into multiple modules or packages)
  |
  ├──docs/                      * contains documentation about the starter-kit
- |   └──all files                (this folder may be deleted after downloading the starter-kit)
+ |   └──all files                (this folder should be deleted after downloading the starter-kit)
  │
  ├──frontend/                  * our frontend (client-side) code folder
  |   ├──app/                   * our Angular 2 app folder (all the app components go in here)
@@ -164,12 +165,12 @@ starter-kit/
 
 ## Database
 
-We use **PostgreSQL** as the database engine/server for this application.
+We use **PostgreSQL** as the database engine/server for this Starter-Kit.
 PostgreSQL is an *object-relational database* that enables us to store data 
 securely and retrieve data using the relational database model. For more information
 about PostgreSQL, go to this [link](https://en.wikipedia.org/wiki/PostgreSQL).
 
-In this project, the PostgreSQL database is installed inside the virtual machine
+In this Starter-Kit, the PostgreSQL database is installed inside the virtual machine
 (thanks to Vagrant). The database can be viewed through a client application 
 using the crendentials below.
 
@@ -203,7 +204,7 @@ go to this [link](https://www.pgadmin.org/).
 ![Alt text](docs/img/pgAdmin5.png "pgAdmin Step 5")
 
 ## Setting up the Database
-In this project, we use a script called **manage.py** to automate the process of setting up 
+In this Starter-Kit, we use a script called **manage.py** to automate the process of setting up 
 the database. This script is used to automatically create the tables in the database from 
 the Python models. Here is how you can use it.
 
