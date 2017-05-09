@@ -44,5 +44,8 @@ from backend import models
 # Importing REST API endpoints
 from backend.api.v1 import endpoints
 
+# Importing REST API endpoint for authentication
+from backend.api.v1 import auth
+
 # Importing the app views
 from backend import views
