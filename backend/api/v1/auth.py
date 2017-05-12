@@ -24,6 +24,9 @@ def authentication():
         login    : 'username' or 'email address'
         password : 'password'
     }
+    RESPONSE:
+        200: Authenticated
+        401: Unauthenticated
     """
     data      = request.get_json(force=True)
     login     = data.get('login', None)
