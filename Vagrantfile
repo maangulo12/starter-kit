@@ -65,6 +65,8 @@ EOF
 # Install Python packages
 apt-get install -y python3-pip libffi-dev
 pip3 install --upgrade pip
+pip3 install pur
+pur -r /vagrant/requirements.txt
 pip3 install -r /vagrant/requirements.txt
 
 # Install NodeJS packages
