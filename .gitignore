@@ -7,10 +7,10 @@ __pycache__
 
 # Node
 *.log
-node_modules/
 
 # Visual Studio
 .vscode
 
-# Build
+# Comment out the lines below before deploying to Heroku
 frontend/build
+node_modules/
