@@ -78,7 +78,7 @@ npm rebuild node-sass --no-bin-links
 
 # Install Git
 apt-get update
-apt-get install git
+apt-get install -y git
 
 # Install Heroku CLI
 add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
