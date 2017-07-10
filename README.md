@@ -1,6 +1,6 @@
 # Starter-Kit
 
-This is a framework for building single-page web apps with [Angular 2](https://angular.io/), [Flask](http://flask.pocoo.org/), [PostgreSQL](https://www.postgresql.org/), and [Heroku](https://www.heroku.com/).
+A concise skeleton for building single-page web apps with [Angular 2](https://angular.io/), [Flask](http://flask.pocoo.org/), [PostgreSQL](https://www.postgresql.org/), and [Heroku](https://www.heroku.com/).
 
 <p align="center">
   <a href="" target="_blank">
@@ -257,6 +257,19 @@ After creating the app, type the following command.
 git push heroku master 
 ```
 ![Alt text](docs/img/heroku_4.png "Heroku Setup Step 4")
+
+Now your app should be deployed on Heroku!
+
+## Versions
+
+This Starter-Kit uses the following versions:
++ Ubuntu Server 14.04 LTS 32-bit (Trusty Tahr)
++ PostgreSQL 9.6 for the database
++ Python 3.6.1 for the backend code
++ Angular 2.0.0 for the frontend code
+
+In Heroku:
+![Alt text](docs/img/heroku_python.png "Heroku Python Runtime Version")
 
 ## Resources for Learning
 
