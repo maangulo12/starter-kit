@@ -36,7 +36,7 @@ class User(db.Model):
         self.email    = email
         self.username = username
         # Protecting the user's password using a hash function
-        self.password = bcrypt.generate_password_hash(password)
+        self.password = bcrypt.generate_password_hash(password.encode('utf-8'))
     
     def check_password(self, password):
         """This is a helper function for checking the user's password."""
