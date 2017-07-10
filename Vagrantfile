@@ -16,8 +16,8 @@ DOC
 $environ = 'starter-kit'
 
 Vagrant.configure(2) do |config|
-  # Download Ubuntu Server 14.04 LTS
-  config.vm.box = 'ubuntu/trusty64'
+  # Download Ubuntu Server 14.04 LTS 32-bit
+  config.vm.box = 'ubuntu/trusty32'
   # Set the hostname of this VM
   config.vm.hostname = $environ
   # Use VirtualBox as the provider for this VM
@@ -72,8 +72,7 @@ pip3 install -r /vagrant/requirements.txt
 # Install NodeJS packages
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 apt-get install -y nodejs build-essential
-npm install -g gulp
-npm install --no-bin-links gulp
+npm install -g npm gulp
 cd /vagrant/
 npm install --no-bin-links
 npm rebuild node-sass --no-bin-links
