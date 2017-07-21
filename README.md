@@ -158,7 +158,7 @@ starter-kit/
  ├──requirements.txt           * specifies our Python dependencies
  ├──runtime.txt                * specifies our Python runtime version
  ├──server.py                  * our Python script for running the app
- ├──tsconfig.json              * specifies options for the TypeScript compiler  
+ ├──tsconfig.json              * specifies options for the TypeScript compiler [link](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) [compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
  ├──typings.json               * specifies packages needed by the TypeScript compiler
  └──Vagrantfile                * what Vagrant uses to configure the virtual machine
 ```
