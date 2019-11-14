@@ -76,7 +76,7 @@ gulp
 ```
 ![Alt text](docs/img/step7.png "Step 7")
 
-#### 8. Open [http://localhost:3000](http://localhost:3000):
+#### 8. Open [http://localhost:8080](http://localhost:8080):
 ![Alt text](docs/img/step8.png "Step 8")
 
 ## Overview
@@ -308,5 +308,5 @@ Follow steps 3 through 8 from above.
 #### 2. I have made changes to a page, but browser is not displaying the changes.
 Close the browser. Restart the application. Cancel the gulp command 
 (press CTRL-C) and run the gulp command once again. Open the browser again 
-and go to [http://localhost:3000](http://localhost:3000). If that does not fix
+and go to [http://localhost:8080](http://localhost:8080). If that does not fix
 the issue, delete all the browser history and refresh the page again.

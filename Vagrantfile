@@ -31,8 +31,8 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, inline: $shell
   # Open 5432 port of this VM to communicate with 5432 port of this local PC
   config.vm.network :forwarded_port, guest: 5432, host: 5432
-  # Open 3000 port of this VM to communicate with 3000 port of this local PC
-  config.vm.network :forwarded_port, guest: 3000, host: 3000
+  # Open 8080 port of this VM to communicate with 8080 port of this local PC
+  config.vm.network :forwarded_port, guest: 8080, host: 8080
 end
 
 # Shell script configuration
