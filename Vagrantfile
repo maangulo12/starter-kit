@@ -70,12 +70,13 @@ pur -r /vagrant/requirements.txt
 pip3 install -r /vagrant/requirements.txt
 
 # Install NodeJS packages
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt-get install -y nodejs build-essential
 npm install -g npm gulp
 cd /vagrant/
 npm install --no-bin-links
-npm rebuild node-sass --no-bin-links
+npm install vue
+npm install vue-cli
 
 # Install Git
 apt-get update
