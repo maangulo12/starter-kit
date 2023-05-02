@@ -1,5 +1,5 @@
 # Python Dependencies
-Flask            == 1.1.1
+Flask            == 2.2.5
 Flask-Bcrypt     == 0.7.1
 Flask-Migrate    == 2.5.2
 Flask-Restless   == 0.17.0
